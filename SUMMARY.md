@@ -8,8 +8,8 @@
 
 ## Videos
 
-* [The front page](watch/about.md)
-* [Search](watch/search.md)
+* [The front page](videos/about.md)
+* [Search](videos/search.md)
 
 ## Channels
 
@@ -45,4 +45,6 @@
 * [Untitled](analytics/untitled.md)
 
 ## Support
+
+* [Untitled](support/untitled.md)
 

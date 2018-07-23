@@ -1,7 +1,3 @@
----
-description: The page shows what's been keeping us busy at CircleHD
----
-
 # Change Logs
 
 ## 15.0.0 - 2042-12-03
