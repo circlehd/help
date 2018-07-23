@@ -6,7 +6,7 @@
 * [Sign up for CircleHD](sign-up-for-circlehd.md)
 * [Change Logs](change-logs.md)
 
-## Watch
+## Videos
 
 * [The front page](watch/about.md)
 * [Search](watch/search.md)
@@ -36,4 +36,13 @@
 * [Untitled](lesson/untitled.md)
 
 ## Mobile
+
+* [CircleHD Mobile Apps](mobile/circlehd-mobile-apps.md)
+* [Untitled](mobile/untitled.md)
+
+## Analytics
+
+* [Untitled](analytics/untitled.md)
+
+## Support
 
