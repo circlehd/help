@@ -11,6 +11,8 @@
 
 ## Channels
 
+* [How to Create a new Channel?](channels/how-to-create-a-new-channel.md)
+
 ## Playlists
 
 ## Lessons
