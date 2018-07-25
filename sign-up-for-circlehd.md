@@ -1,4 +1,0 @@
-# Sign up for CircleHD
-
-
-
