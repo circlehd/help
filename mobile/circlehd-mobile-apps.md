@@ -1,4 +1,0 @@
-# CircleHD Mobile Apps
-
-
-

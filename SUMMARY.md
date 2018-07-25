@@ -33,18 +33,12 @@
 ## Lesson
 
 * [Create Lesson](lesson/create-lesson.md)
-* [Untitled](lesson/untitled.md)
 
 ## Mobile
 
-* [CircleHD Mobile Apps](mobile/circlehd-mobile-apps.md)
-* [Untitled](mobile/untitled.md)
-
 ## Analytics
-
-* [Untitled](analytics/untitled.md)
 
 ## Support
 
-* [Untitled](support/untitled.md)
+## Getting Started
 
