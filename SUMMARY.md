@@ -3,23 +3,39 @@
 * [Initial page](README.md)
 * [Change Logs](change-logs.md)
 
+## Getting Started
+
+* [What is CircleHD?](getting-started/what-is-circlehd.md)
+
 ## Videos
 
 ## Channels
 
-## Playlist
+## Playlists
+
+## Lessons
+
+* [Create Lesson](lessons/create-lesson.md)
+
+## Recording Studio
 
 ## Management
 
-## Lesson
+## Analytics
 
-* [Create Lesson](lesson/create-lesson.md)
+## Favorites
+
+## Notifications
 
 ## Mobile
 
-## Analytics
+## Developers SDK
 
 ## Support
 
-## Getting Started
+## FAQs
+
+## Troubleshooting
+
+## Billing
 
