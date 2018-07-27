@@ -2,42 +2,28 @@
 
 * [Initial page](README.md)
 * [Change Logs](change-logs.md)
-
-## Getting Started
-
-* [What is CircleHD?](getting-started/what-is-circlehd.md)
-
-## Videos
-
-## Channels
-
-* [How to Create a new Channel?](channels/how-to-create-a-new-channel.md)
-
-## Playlists
-
-## Lessons
-
-* [Create Lesson](lessons/create-lesson.md)
-
-## Recording Studio
-
-## Management
-
-## Analytics
-
-## Favorites
-
-## Notifications
-
-## Mobile
-
-## Developers SDK
-
-## Support
-
-## FAQs
-
-## Troubleshooting
-
-## Billing
+* [GETTING STARTED](getting-started/README.md)
+  * [What is CircleHD?](getting-started/what-is-circlehd.md)
+* [VIDEOS](videos/README.md)
+  * [How to upload a Video?](videos/how-to-upload-a-video.md)
+  * [How to edit Videos?](videos/how-to-edit-videos.md)
+* [CHANNELS](channels/README.md)
+  * [How to Create a new Channel?](channels/how-to-create-a-new-channel.md)
+* [PLAYLISTS](playlists.md)
+* [LESSONS](lessons/README.md)
+  * [What are Lessons in CircleHD?](lessons/what-are-lessons-in-circlehd.md)
+  * [How to view Stats for Lessons?](lessons/how-to-view-stats-for-lessons.md)
+  * [How to assign a new lesson?](lessons/how-to-assign-a-new-lesson.md)
+  * [How to create a new Lesson?](lessons/create-lesson.md)
+* [FAVORITES](favorites.md)
+* [RECORDING STUDIO](recording-studio.md)
+* [MANAGEMENT](management.md)
+* [ANALYTICS](analytics.md)
+* [NOTIFICATIONS](notifications.md)
+* [MOBILE](mobile.md)
+* [DEVELOPERS SDK](developers-sdk.md)
+* [SUPPORT](support.md)
+* [FAQs](faqs.md)
+* [TROUBLESHOOTING](troubleshooting.md)
+* [BILLING](billing.md)
 
