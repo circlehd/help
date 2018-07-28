@@ -10,7 +10,7 @@ You need to be admin or lesson owner to view stats. To view lesson stats, please
 
 ![](../.gitbook/assets/lessons-view%20%281%29.png)
 
-3. Click on "Stats" option. This will load the "Stats" page. 
+3. Click on "Stats" option. This will load the "Stats" page. It displays assigned names and their progress till date. 
 
 ![](../.gitbook/assets/lessons-stats%20%281%29.png)
 
