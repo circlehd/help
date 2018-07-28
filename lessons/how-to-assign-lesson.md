@@ -6,7 +6,11 @@ To assign a new lesson, please follow below steps.
 
 ![](../.gitbook/assets/playlists-view%20%282%29.png)
 
-2. Click on "Assign" option below the lesson / playlist you need to assign. 
+2. The second way is to click on the lesson / Playlist and go to Lesson detail page, which will also display "Edit \| Assign \| Stats" option in the top right. 
+
+![](../.gitbook/assets/lessons-view.png)
+
+3. Click on "Assign" option below the lesson / playlist you need to assign. 
 
 3. This will load the "Assign" popup form. Enter emails in the box under "Users" label. You can add custom message in the message box if needed. Select the due date below the message box, which will be the deadline to complete the lesson. Click "Assign" once all form is filled.
 

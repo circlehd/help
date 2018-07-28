@@ -8,7 +8,7 @@ You need to be admin or lesson owner to view stats. To view lesson stats, please
 
 2. The second way is to click on the lesson / Playlist and go to Lesson detail page, which will also display "Edit \| Assign \| Stats" option in the top right. 
 
-![](../.gitbook/assets/lessons-view.png)
+![](../.gitbook/assets/lessons-view%20%281%29.png)
 
 3. Click on "Stats" option. This will load the "Stats" page. 
 
