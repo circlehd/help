@@ -4,7 +4,7 @@ To assign a new lesson, please follow below steps.
 
 1. You can Assign lessons in two ways within CircleHD portal. Once the lesson \(playlist\) is created, you can click on "Playlists" option in the left vertical menu to view all playlists including lessons created by you. If you are the owner of any lesson, then it will display "Edit \| Assign \| Stats" option below the playlist.
 
-![](../.gitbook/assets/playlists-view%20%281%29.png)
+![](../.gitbook/assets/playlists-view%20%282%29.png)
 
 2. Click on "Assign" option below the lesson / playlist you need to assign. 
 
