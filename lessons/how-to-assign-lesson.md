@@ -12,15 +12,15 @@ To assign a new lesson, please follow below steps.
 
 3. Click on "Assign" option below the lesson / playlist you need to assign. 
 
-3. This will load the "Assign" popup form. Enter emails in the box under "Users" label. You can add custom message in the message box if needed. Select the due date below the message box, which will be the deadline to complete the lesson. Click "Assign" once all form is filled.
+4. This will load the "Assign" popup form. Enter emails in the box under "Users" label. You can add custom message in the message box if needed. Select the due date below the message box, which will be the deadline to complete the lesson. Click "Assign" once all form is filled.
 
 ![](../.gitbook/assets/assign-lesson.png)
 
-4. Clicking on Assign will send emails to each user email entered, mentioning the lesson assigned to them with other details. User can start the lesson by clicking on the link provided in email.
+5. Clicking on Assign will send emails to each user email entered, mentioning the lesson assigned to them with other details. User can start the lesson by clicking on the link provided in email.
 
 ![](../.gitbook/assets/lesson-email.png)
 
-5. Once lesson is completed, it will display a completion certificate and also update status for the lesson.
+6. Once lesson is completed, it will display a completion certificate and also update status for the lesson.
 
 ![](../.gitbook/assets/lesson-completion-certificate.png)
 
