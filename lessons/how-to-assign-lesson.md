@@ -18,7 +18,7 @@ To assign a new lesson, please follow below steps.
 
 5. Clicking on Assign will send emails to each user email entered, mentioning the lesson assigned to them with other details. User can start the lesson by clicking on the link provided in email.
 
-![](../.gitbook/assets/lesson-email.png)
+![](../.gitbook/assets/lesson-email%20%281%29.png)
 
 6. Once lesson is completed, it will display a completion certificate and also update status for the lesson.
 
