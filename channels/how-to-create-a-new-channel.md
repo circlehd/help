@@ -1,23 +1,10 @@
-# How to Create a new Channel?
+# What is Channels List?
 
-## You can create a new channel in two ways:
+You can organize your video content for your team / company through Channels. As a Channel owner, you can add co-owners and videos about specific topic for employees to view. 
 
-1- Click on the “+” icon next to “Channels” text in left vertical navigation:
+The **Channels List** is also displayed in the left navigation on the home page. 
 
-```
-$ give me super-powers
-```
+You can identify Channel as a category keyword which can be used to locate videos for that particular topic. 
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
-
-Once you're strong enough, save the world:
-
-```
-// Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-
-
+A Channel can be either **public**, where every user within that organization can access it OR it can be private / **secured** with limited users having access.
 
