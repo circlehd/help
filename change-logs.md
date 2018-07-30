@@ -1,20 +1,34 @@
+---
+description: This page will contain the history of changes as they were introduced
+---
+
 # Change Logs
 
-## 15.0.0 - 2042-12-03
+## 07/27/2018
 
 ### Fixed
 
-* Removed humans, they weren't doing fine with animals.
+* Bugs and improved overall stability for Lessons feature
 
 ### Changed
 
-* Animals are now super cute, all of them.
+* Usage and analytics now includes Length and department column.
 
-## 14.0.0 - 2042-10-06
+## 07/20/2018
 
-### Added
+### New feature
 
-* Introduced animals into the world, we believe they're going to be a neat addition.
+#### Lesson
+
+1. Lesson is Playlist can be assigned to users
+2. Tracked user progress
+3. Completion certificate.
+
+#### 
+
+
+
+
 
 
 
