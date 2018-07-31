@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [CircleHD Help guide](README.md)
 * [Change Logs](change-logs.md)
 * [GETTING STARTED](getting-started/README.md)
   * [What is CircleHD?](getting-started/what-is-circlehd.md)
