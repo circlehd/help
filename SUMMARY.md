@@ -1,7 +1,6 @@
 # Table of contents
 
 * [CircleHD Help guide](README.md)
-* [Change Logs](change-logs.md)
 * [GETTING STARTED](getting-started/README.md)
   * [What is CircleHD?](getting-started/what-is-circlehd.md)
   * [How to Signup?](getting-started/how-to-signup.md)
@@ -70,4 +69,5 @@
 * [FAQs](faqs.md)
 * [TROUBLESHOOTING](troubleshooting.md)
 * [BILLING](billing.md)
+* [Change Logs](change-logs.md)
 
