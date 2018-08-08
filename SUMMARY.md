@@ -18,6 +18,7 @@
   * [How to Post Discussion And Rating?](videos/how-to-post-discussion-and-rating.md)
   * [How to Share a Video?](videos/how-to-share-a-video.md)
   * [What are the supported Video File Formats?](videos/what-are-the-supported-video-file-formats.md)
+  * [How to replace an existing video?](videos/how-to-replace-an-existing-video.md)
 * [CHANNELS](channels/README.md)
   * [What is Channels List?](channels/how-to-create-a-new-channel.md)
   * [How to View Channel Content?](channels/how-to-view-channel-content.md)
