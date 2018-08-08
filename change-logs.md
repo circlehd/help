@@ -4,6 +4,15 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 08/03/2018
+
+Fixes: bugs related to analytics
+
+### New feature
+
+Transcription: Automatically transcribe videos for reading and search for spoken words.  
+Read more on [our blog](https://www.circlehd.com/blog/automated-audio-to-text-video-transcriptions/)
+
 ## 07/27/2018
 
 ### Fixed
