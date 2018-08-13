@@ -1,12 +1,12 @@
 # Steps to Integrate SSO with CircleHD
 
-**1-** First, login to your CircleHD portal with your admin credentials, and navigate to Portal Settings -&gt; Single Sign On \(SSO\), which should be at https://.circlehd.com/admin/sso 
+**1-** First, login to your CircleHD portal with your admin credentials, and navigate to Portal Settings -&gt; Single Sign On \(SSO\), which should be at https://&lt;YOUR DOMAIN&gt;.circlehd.com/admin/sso 
 
 **2-** Turn On Enable Single Sign On Switch **\[1\]**.
 
 ![](../../.gitbook/assets/help_mngmt_settings5.png)
 
-**3-** Provide the Metadata/Audience XML **\[2\]** \(https://.circlehd.com/auth/saml2/metadata.xml\) to your IT SSO Admin. The document contains information about Audience system that allows your instance to verify that it is the intended recipient of a SAML response and generate corresponding certificate to be used by CircleHD. 
+**3-** Provide the Metadata/Audience XML **\[2\]** \(https://&lt;YOUR DOMAIN&gt;.circlehd.com/auth/saml2/metadata.xml\) to your IT SSO Admin. The document contains information about Audience system that allows your instance to verify that it is the intended recipient of a SAML response and generate corresponding certificate to be used by CircleHD. 
 
 **4-** Additionally, your Organization IT SSO Admin may ask for the following information and / or configurations,
 
@@ -37,7 +37,7 @@
 
 ## Test the Integration
 
-**1-** Navigate to on the Sign in Test URL **\[3\]**: https://.circlehd.com/auth/saml2/signin
+**1-** Navigate to on the Sign in Test URL **\[3\]**: https://&lt;YOUR DOMAIN&gt;.circlehd.com/auth/saml2/signin
 
 **2-** Make sure you are able to login to CircleHD domain using your Org SSO Credentials.
 
