@@ -29,6 +29,7 @@
   * [What is a Private and Public Channel?](channels/what-is-a-private-and-public-channel.md)
   * [How to add Co-Owner to Channel?](channels/untitled.md)
   * [How to add users to a Channel?](channels/how-to-add-users-to-a-channel.md)
+  * [Embedding Videos](channels/embedding-videos.md)
 * [PLAYLISTS](playlists/README.md)
   * [What is The Playlist?](playlists/what-is-the-playlist.md)
   * [What is The Difference Between a Channel and a Playlist?](playlists/what-is-the-difference-between-a-channel-and-a-playlist.md)
