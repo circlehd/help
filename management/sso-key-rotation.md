@@ -8,13 +8,13 @@ description: >-
 
 At CircleHD we treat security as our main feature. Right from user authentication to backup data handling we have followed the industry standard best practices to keep your data secure.
 
-### Why key rotation is necessary
+### Why key rotation is necessary?
 
 CircleHD Simplified user authentication or Single Sign On \(SSO\) is made secure by trust established over RSA 2048 bit public key infrastructure. That requires both parties \(IDP: Your Side and SSP: CircleHD\) to sign and verify challenges and responses with an established cryptographic key. If the keys were compromised due to any reason the trust is broken. Therefore key rotation is a best practice to keep the trust established.
 
-### Key rotation at CircleHD \(SSP\)
+### When to update the keys?
 
-We rotate our keys twice a year and there is no significant impact or downtime at your end.
+We rotate our keys twice a year and there is no significant impact or downtime at your end. Your IDP may rotate keys periodically. Typically once or more every year. Please refer to your IT administrator to plan for certificate rotation and downtime. Although SSO continue to work with out any rotation, we recommend rotating keys at-least once every year.
 
 ### Key rotation at your end IDP
 
