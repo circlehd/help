@@ -4,6 +4,29 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 08/20/2018
+
+Site load performs much faster than before. We have tweaked the underlined ajax framework to cut some old fat needed to support older browsers. Now we support only IE 10+
+
+### Bug fixes
+
+* Slack posting now removes HTML characters from description
+* Faster iframe rendering. Faster loading and reloading of video from CDN
+* Auto play videos on browsers prevent them by muting them on 2nd attempt. Better unmuting experience coming soon.
+* Longer transcription support
+
+### New features
+
+Users can export  analytics for individual videos to Excel.
+
+## 08/13/2018
+
+### Bug fixes
+
+* SAML attribute import fixed for Ping Identity. XML Encoding works well.
+* Transcription now rendered by paragraph. Better reading experience.
+* Performance Improvements
+
 ## 08/03/2018
 
 Fixes: bugs related to analytics
