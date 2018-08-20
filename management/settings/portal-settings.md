@@ -12,7 +12,11 @@ On the **Portal Settings** section, you can define the below:
 
 **4-** Define the **Access Control** \(Everyone can create channels\) **\[4\]** 
 
-**5-** Define the **Video Embedding URL** **\[5\]** 
+**5-** **Video Embedding Whitelisting of Domains \[5\]** 
+
+By default users must be logged in to watch on the embed. If you have a trusted site, and you don't like to force the users to log-in before watching, you can enable trusted site under portal settings.
+
+Users accessing iframe based embedding from these domains will not be prompted to login. However, the username will not show up in analytics if they have not previously logged into CircleHD
 
 **6-** Select the **Default Timezone** for the portal **\[6\]** 
 
