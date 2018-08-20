@@ -22,8 +22,11 @@ When your IDP rotates keys you must update CircleHD SSO configuration. If key ex
 
 #### Prerequisite
 
+Only admins on CircleHD can rotate keys. If you don't have admin permission, please contact your admin or support@circlehd.com for additional help.
+
 1. New Certificate File.
 2. Two browser sessions \(Optional, but recommended\)
+3. Plain Text Editor such as Notepad or Sublime Text
 
 #### **Open 2 browser sessions.**
 
