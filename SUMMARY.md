@@ -62,6 +62,7 @@
   * [How to Manage Portal Users?](management/how-to-manage-portal-users.md)
   * [How to Manage Portal Media?](management/how-to-manage-portal-media.md)
   * [How to Invite Teams to The Portal?](management/how-to-invite-teams-to-the-portal.md)
+  * [SSO Key Rotation](management/sso-key-rotation.md)
 * [ANALYTICS](analytics/README.md)
   * [How to Open System Dashboard?](analytics/how-to-open-system-dashboard.md)
   * [How to Open System Reports?](analytics/how-to-open-system-reports.md)
