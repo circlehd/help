@@ -10,23 +10,103 @@
 
 **4-** Additionally, your Organization IT SSO Admin may ask for the following information and / or configurations,
 
-| 1 | App name | CircleHD |
-| :--- | :--- | :--- |
-| 2 | App logo | DOWNLOAD FROM HTTPS://STATIC.CIRCLEHD.COM/PUBLIC/STATIC/IMG/CIRCLEHD-LOGO.ZIP |
-| 3 | Single sign on URL | https://&lt;YOUR DOMAIN&gt;.circlehd.com/auth/saml2 |
-| 4 | Use this for Recipient URL and Destination URL | Yes |
-| 5 | Audience URI \(SP Entity ID\) | https://&lt;YOUR DOMAIN&gt;.circlehd.com/ |
-| 6 | Default RelayState | Empty |
-| 7 | Name ID format | EmailAddress |
-| 8 | Application Username | Email |
-| 9 | Response | Signed |
-| 10 | Assertion Signature | Signed |
-| 11 | Signature Algorithm | RSA-SHA256 |
-| 12 | Digest Algorithm | SHA256 |
-| 13 | Assertion Encryption | Unencrypted |
-| 14 | Optional SAML Attributes \(used for reporting\)  | fname: _"&lt;FIRST NAME&gt;"_lname: _"&lt;LAST NAME&gt;"_display\_name: _"&lt;DISPLAY NAME&gt;"_department: _"&lt;ORG/DEPARTMENT&gt;"_function\_name: _"&lt;JOB FUNCTION&gt;"_manager: _"&lt;MANAGER EMAIL&gt;"_cost\_center: _"&lt;COST CENTER&gt;"_rtd\_chain: _"&lt;REPORTING CHAIN \(separated by comma\)&gt;"_location: _"&lt;LOCATION&gt;"_ |
-
-**5-** Receive the following information from your IT SSO Admin to continue. This may be contained in the Identity Provider metadata XML File
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">1</th>
+      <th style="text-align:left">App name</th>
+      <th style="text-align:left">CircleHD</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">2</td>
+      <td style="text-align:left">App logo</td>
+      <td style="text-align:left">DOWNLOAD FROM HTTPS://STATIC.CIRCLEHD.COM/PUBLIC/STATIC/IMG/CIRCLEHD-LOGO.ZIP</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">3</td>
+      <td style="text-align:left">Single sign on URL</td>
+      <td style="text-align:left">https://
+        <YOUR DOMAIN>.circlehd.com/auth/saml2</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">4</td>
+      <td style="text-align:left">Use this for Recipient URL and Destination URL</td>
+      <td style="text-align:left">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">5</td>
+      <td style="text-align:left">Audience URI (SP Entity ID)</td>
+      <td style="text-align:left">https://
+        <YOUR DOMAIN>.circlehd.com/</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">6</td>
+      <td style="text-align:left">Default RelayState</td>
+      <td style="text-align:left">Empty</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">7</td>
+      <td style="text-align:left">Name ID format</td>
+      <td style="text-align:left">EmailAddress</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">8</td>
+      <td style="text-align:left">Application Username</td>
+      <td style="text-align:left">Email</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">9</td>
+      <td style="text-align:left">Response</td>
+      <td style="text-align:left">Signed</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">10</td>
+      <td style="text-align:left">Assertion Signature</td>
+      <td style="text-align:left">Signed</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">11</td>
+      <td style="text-align:left">Signature Algorithm</td>
+      <td style="text-align:left">RSA-SHA256</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">12</td>
+      <td style="text-align:left">Digest Algorithm</td>
+      <td style="text-align:left">SHA256</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">13</td>
+      <td style="text-align:left">Assertion Encryption</td>
+      <td style="text-align:left">Unencrypted</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">14</td>
+      <td style="text-align:left">Optional SAML Attributes (used for reporting)</td>
+      <td style="text-align:left">
+        <p>fname: <em>"<FIRST NAME>"</em>
+        </p>
+        <p>lname: <em>"<LAST NAME>"</em>
+        </p>
+        <p>display_name: <em>"<DISPLAY NAME>"</em>
+        </p>
+        <p>department: <em>"<ORG/DEPARTMENT>"</em>
+        </p>
+        <p>function_name: <em>"<JOB FUNCTION>"</em>
+        </p>
+        <p>manager: <em>"<MANAGER EMAIL>"</em>
+        </p>
+        <p>cost_center: <em>"<COST CENTER>"</em>
+        </p>
+        <p>rtd_chain: <em>"<REPORTING CHAIN (separated by comma)>"</em>
+        </p>
+        <p>location: <em>"<LOCATION>"</em>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>**5-** Receive the following information from your IT SSO Admin to continue. This may be contained in the Identity Provider metadata XML File
 
 * **Login URL \[4\]** \(Identity Provider Single Sign-On URL\) :  TO BE USED FOR REDIRECTING USER WHEN AUTHENTICATION IS REQUIRED.
 * **Logout URL \[5\]:** \(OPTIONAL\) THE DESTINATION FOR THE USER WHEN LOGGING OUT FROM CIRCLEHD.
