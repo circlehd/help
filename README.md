@@ -10,7 +10,7 @@ description: >-
 Introduction
 
 * [Getting started](getting-started/)
-* [Submit a Support ticket](https://circlehd.freshdesk.com/helpdesk)
+* [Submit a Support ticket](https://circlehd.freshdesk.com/support/tickets/new)
 
 
 
