@@ -27,8 +27,7 @@
     <tr>
       <td style="text-align:left">3</td>
       <td style="text-align:left">Single sign on URL</td>
-      <td style="text-align:left">https://
-        <YOUR DOMAIN>.circlehd.com/auth/saml2</td>
+      <td style="text-align:left">https://&lt;YOUR DOMAIN&gt;.circlehd.com/auth/saml2</td>
     </tr>
     <tr>
       <td style="text-align:left">4</td>
@@ -38,8 +37,7 @@
     <tr>
       <td style="text-align:left">5</td>
       <td style="text-align:left">Audience URI (SP Entity ID)</td>
-      <td style="text-align:left">https://
-        <YOUR DOMAIN>.circlehd.com/</td>
+      <td style="text-align:left">https://&lt;YOUR DOMAIN&gt;.circlehd.com/</td>
     </tr>
     <tr>
       <td style="text-align:left">6</td>
@@ -85,23 +83,23 @@
       <td style="text-align:left">14</td>
       <td style="text-align:left">Optional SAML Attributes (used for reporting)</td>
       <td style="text-align:left">
-        <p>fname: <em>"<FIRST NAME>"</em>
+        <p>fname: <em>&quot;&lt;FIRST NAME&gt;&quot;</em>
         </p>
-        <p>lname: <em>"<LAST NAME>"</em>
+        <p>lname: <em>&quot;&lt;LAST NAME&gt;&quot;</em>
         </p>
-        <p>display_name: <em>"<DISPLAY NAME>"</em>
+        <p>display_name: <em>&quot;&lt;DISPLAY NAME&gt;&quot;</em>
         </p>
-        <p>department: <em>"<ORG/DEPARTMENT>"</em>
+        <p>department: <em>&quot;&lt;ORG/DEPARTMENT&gt;&quot;</em>
         </p>
-        <p>function_name: <em>"<JOB FUNCTION>"</em>
+        <p>function_name: <em>&quot;&lt;JOB FUNCTION&gt;&quot;</em>
         </p>
-        <p>manager: <em>"<MANAGER EMAIL>"</em>
+        <p>manager: <em>&quot;&lt;MANAGER EMAIL&gt;&quot;</em>
         </p>
-        <p>cost_center: <em>"<COST CENTER>"</em>
+        <p>cost_center: <em>&quot;&lt;COST CENTER&gt;&quot;</em>
         </p>
-        <p>rtd_chain: <em>"<REPORTING CHAIN (separated by comma)>"</em>
+        <p>rtd_chain: <em>&quot;&lt;REPORTING CHAIN (separated by comma)&gt;&quot;</em>
         </p>
-        <p>location: <em>"<LOCATION>"</em>
+        <p>location: <em>&quot;&lt;LOCATION&gt;&quot;</em>
         </p>
       </td>
     </tr>

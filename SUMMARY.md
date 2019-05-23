@@ -70,6 +70,7 @@
 * [NOTIFICATIONS](notifications.md)
 * [MOBILE](mobile.md)
 * [DEVELOPERS SDK](developers-sdk/README.md)
+  * [SCIM](developers-sdk/scim.md)
   * [Developer Documents](http://dev.circlehd.com/)
 * [SUPPORT](support/README.md)
   * [Contact CircleHD](https://www.circlehd.com/contactus/)
