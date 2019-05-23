@@ -86,7 +86,7 @@ The base URL for all calls to the SCIM API is https://&lt;subdomain&gt;.circlehd
 
 ## CircleHD Cloud Identity Security Architecture
 
-![](https://lh5.googleusercontent.com/X1W-SYHz3kaola9E-usJvcpMuB9Ma4M2iMaSEWcTut3fs5WpjRK4PlWnUwK0n2zZ7iWphxSyCWBtdxtJSP2-BppUpTP6P5BCHUrF-xNcYmJnoBM4O4cxQd9IZ9JZtQfO_fJvGF4)
+![CircleHD Cloud Identity Security Architecture](https://lh5.googleusercontent.com/X1W-SYHz3kaola9E-usJvcpMuB9Ma4M2iMaSEWcTut3fs5WpjRK4PlWnUwK0n2zZ7iWphxSyCWBtdxtJSP2-BppUpTP6P5BCHUrF-xNcYmJnoBM4O4cxQd9IZ9JZtQfO_fJvGF4)
 
 ### SCIM endpoints
 
