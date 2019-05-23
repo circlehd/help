@@ -196,13 +196,10 @@ Returns a paginated list of users, ten users per page by default. When querying 
 It's possible to return a list of specific types of users with the filter parameter.  
 
 
-   GET /api/scim/v2/Users?startIndex=4&count=500 HTTP/1.1
-
-    Host: &lt;your subdomain&gt;.circlehd.com
-
-    Accept: application/json
-
-    Authorization: Basic nyzxSLInlhff5tOxuGpeC29iEe9c=  
+`GET /api/scim/v2/Users?startIndex=4&count=500 HTTP/1.1  
+Host: <your subdomain>.circlehd.com  
+Accept: application/json  
+Authorization: Basic nyzxSLInlhff5tOxuGpeC29iEe9c=`  
 
 
 GET /Users/{id}
@@ -210,14 +207,10 @@ GET /Users/{id}
 Retrieves a single user resource. The value of the {id} should be the user's corresponding CircleHD ID.  
 
 
-   GET /api/scim/v2/Users/U1A23BC4D HTTP/1.1
-
-    Host: &lt;your subdomain&gt;.circlehd.com
-
-    Accept: application/json
-
-    Authorization: Basic nyzxSLInlhff5tOxuGpeC29iEe9c=  
-
+  `GET /api/scim/v2/Users/U1A23BC4D HTTP/1.1  
+Host: <your subdomain>.circlehd.com  
+Accept: application/json  
+Authorization: Basic nyzxSLInlhff5tOxuGpeC29iEe9c=`
 
 POST /Users
 
@@ -227,151 +220,7 @@ Creates a user. Must include the userName attribute and at least one email addre
 This example request body provides a detailed example of which attributes CircleHD uses, especially for the multi-valued attributes.  
 
 
-{
-
-    "schemas": \["urn:scim:schemas:core:1.0",
-
-              "urn:scim:schemas:extension:enterprise:1.0"\],
-
-    "userName": "other\_username",
-
-    "nickName": "CircleHD\_username",
-
-    "name": {
-
-        "familyName": "Last",
-
-        "givenName": "First",
-
-        "honorificPrefix": "Ms."
-
-    },
-
-    "displayName": "First Last",
-
-    "profileUrl": "https://login.example.com/CircleHD\_username",
-
-    "emails": \[
-
-        {
-
-            "value": "john.doe@example.com",
-
-            "type": "work",
-
-            "primary": true
-
-        },
-
-        {
-
-            "value": "some\_other@email.com",
-
-            "type": "home"
-
-        }
-
-    \],
-
-    "addresses": \[
-
-        {
-
-            "streetAddress": "951 Mariners Island blvd",
-
-            "locality": "Chicago",
-
-            "region": "IL",
-
-            "postalCode": "60613",
-
-            "country": "USA",
-
-            "primary": true
-
-        },
-
-    \],
-
-    "phoneNumbers": \[
-
-        {
-
-            "value": "555-555-5555",
-
-            "type": "work"
-
-        },
-
-        {
-
-            "value": "123-456-7890",
-
-            "type": "mobile"
-
-        }
-
-    \],
-
-    "photos": \[
-
-        {
-
-            "value": "https://photos.example.com/profilephoto.jpg",
-
-            "type": "photo"
-
-        },
-
-    \],
-
-    "roles": \[
-
-        {
-
-            "value": "Tech Lead",
-
-            "primary": "true"
-
-        }
-
-    \],
-
-    "userType": "Employee",
-
-    "title": "Sales Manager",
-
-    "preferredLanguage":"en\_US",
-
-    "locale": "en\_US",
-
-    "timezone": "America/Chicago",
-
-    "active":true,
-
-    "password":"sooopersec3et",
-
-    "urn:scim:schemas:extension:enterprise:1.0": {
-
-        "employeeNumber": "701984",
-
-        "costCenter": "4130",
-
-        "organization": "Chicago Cubs",
-
-        "division": "Sales",
-
-        "department": "Enterprise",
-
-        "manager": {
-
-            "managerId": "mgr@example.com"
-
-        }
-
-    }
-
-}  
+{ "schemas": \["urn:scim:schemas:core:1.0", "urn:scim:schemas:extension:enterprise:1.0"\], "userName": "other\_username", "nickName": "CircleHD\_username", "name": { "familyName": "Last", "givenName": "First", "honorificPrefix": "Ms." }, "displayName": "First Last", "profileUrl": "[https://login.example.com/CircleHD\_username](https://login.example.com/CircleHD_username)", "emails": \[ { "value": "john.doe@example.com", "type": "work", "primary": true }, { "value": "some\_other@email.com", "type": "home" } \], "addresses": \[ { "streetAddress": "951 Mariners Island blvd", "locality": "Chicago", "region": "IL", "postalCode": "60613", "country": "USA", "primary": true }, \], "phoneNumbers": \[ { "value": "555-555-5555", "type": "work" }, { "value": "123-456-7890", "type": "mobile" } \], "photos": \[ { "value": "[https://photos.example.com/profilephoto.jpg](https://photos.example.com/profilephoto.jpg)", "type": "photo" }, \], "roles": \[ { "value": "Tech Lead", "primary": "true" } \], "userType": "Employee", "title": "Sales Manager", "preferredLanguage":"en\_US", "locale": "en\_US", "timezone": "America/Chicago", "active":true, "password":"sooopersec3et", "urn:scim:schemas:extension:enterprise:1.0": { "employeeNumber": "701984", "costCenter": "4130", "organization": "Chicago Cubs", "division": "Sales", "department": "Enterprise", "manager": { "managerId": "mgr@example.com" } } }  
 
 
 PATCH /Users/{id}
@@ -382,31 +231,18 @@ Updates an existing user resource, overwriting values for specified attributes. 
 Disabled users can be re-enabled by sending active attribute equal to true. The value of the {id} should be the user's corresponding CircleHD ID.  
 
 
-{
-
-    "schemas": \[
-
-        "urn:scim:schemas:core:1.0"
-
-    \],
-
-    "id": "john.doe@example.com",
-
-    "active": true,
-
-    "emails": \[
-
-        {
-
-            "value": "some@new.email.com",
-
-            "primary": true
-
-        }
-
-    \]
-
-}  
+`{ "schemas": [  
+        "urn:scim:schemas:core:1.0"  
+    ],  
+    "id": "john.doe@example.com",  
+    "active": true,  
+    "emails": [  
+        {  
+            "value": "some@new.email.com",  
+            "primary": true  
+        }  
+    ]  
+}`  
 
 
 PUT /Users/{id}
