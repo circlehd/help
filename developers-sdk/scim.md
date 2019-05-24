@@ -100,15 +100,32 @@ Enable SCIM by turning the switch ON. Click save to generate the SCIM Password.
   
 NOTE: the password cannot be re-retrieved once this section is saved. You must note the password before proceeding.  
   
-Example:  
+_Example_  
 
 
-| ENDPOINT | https://&lt;subdomain&gt;.circlehd.com/api/scim/v2  |
-| :--- | :--- |
-| USERNAME | scim |
-| PASSWORD | generated above |
-
-#### Authentication
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">ENDPOINT</th>
+      <th style="text-align:left">
+        <p></p>
+        <p>https://&lt;subdomain&gt;.circlehd.com/api/scim/v2
+          <br />
+        </p>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">USERNAME</td>
+      <td style="text-align:left">scim</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">PASSWORD</td>
+      <td style="text-align:left">generated above</td>
+    </tr>
+  </tbody>
+</table>#### Authentication
 
 SCIM Endpoint requires Basic Authentication. The username is SCIM.
 
@@ -116,7 +133,7 @@ SCIM Endpoint requires Basic Authentication. The username is SCIM.
 
 #### Service Provider Configuration
 
-GET /ServiceProviderConfigs
+_GET /ServiceProviderConfigs_
 
 Returns CircleHD's configuration details for our SCIM API, including which operations are supported.
 
@@ -124,13 +141,13 @@ Returns CircleHD's configuration details for our SCIM API, including which opera
 
 CircleHD currently supports schemas for users and groups. Querying the schemas will provide the most up-to-date rendering of the supported SCIM attributes.
 
-GET /Schemas/Users
+_GET /Schemas/Users_
 
 Returns CircleHD's configuration details for how users are formatted.
 
-GET /Schemas/Groups
+_GET /Schemas/Groups_
 
-Returns CircleHD's configuration details for how groups are formatted.
+Returns CircleHD's configuration details for how groups are formatted, not supported currently in CircleHD.
 
 #### Users
 
@@ -139,23 +156,17 @@ As you might expect, users map to the individuals of your team across a workspac
 #### User Attributes
 
 Attributes are the details associated with a user's account. These are the details that someone would typically set in their profile \(for example, by clicking the Edit Profile Button in the CircleHD web application\).  
-
-
+  
 The following tables map SCIM attributes to the profile fields that CircleHD uses. Most of these profile fields are exposed directly in a person's profile in the CircleHD UI.  
-
-
+  
 Sometimes, multiple SCIM attributes map to a single CircleHD profile field --- for example, CircleHD's Display name field will populate from either the displayName or the userName SCIM attribute, depending on which is set. If both are set, it will use displayName.  
-
-
+  
 Attribute values will vary by identity provider. For example, some may use a single field for a user's full name, others may provide sub-attributes such as givenName and familyName, still others may provide both. Either is acceptable, but they should only describe the same name \(i.e. sub-attributes should not contain additional or optional information, such as a nickname\).  
-
-
+  
 Not every attribute will be displayed in a user's profile --- for example, active does not appear as a field but can be used to determine if a user's account is active.  
-
-
+  
 The password attribute is never returned but can be used to set the initial password for a user if the team is not using an identity manager.  
-
-
+  
 _Standard attributes_
 
 | Username | userName | string |
@@ -186,46 +197,44 @@ Other custom attributes
 _GET /Users_
 
 Returns a paginated list of users, ten users per page by default. When querying large CircleHD instances, reduce the count parameter to 1000 or less, and use the startIndexparameter to paginate through users.  
-
-
+  
 It's possible to return a list of specific types of users with the filter parameter.  
-
-
+  
 `GET /api/scim/v2/Users?startIndex=4&count=500 HTTP/1.1  
 Host: <your subdomain>.circlehd.com  
 Accept: application/json  
 Authorization: Basic nyzxSLInlhff5tOxuGpeC29iEe9c=`  
+  
 
 
 _GET /Users/{id}_
 
 Retrieves a single user resource. The value of the {id} should be the user's corresponding CircleHD ID.  
-
-
+  
   `GET /api/scim/v2/Users/U1A23BC4D HTTP/1.1  
 Host: <your subdomain>.circlehd.com  
 Accept: application/json  
 Authorization: Basic nyzxSLInlhff5tOxuGpeC29iEe9c=`
 
+\_\_
+
 _POST /Users_
 
 Creates a user. Must include the userName attribute and at least one email address. You may provide an email address in the userName field, but it will be automatically converted to a CircleHD-appropriate username.  
-
-
+  
 This example request body provides a detailed example of which attributes CircleHD uses, especially for the multi-valued attributes.  
-
-
-{ "schemas": \["urn:scim:schemas:core:1.0", "urn:scim:schemas:extension:enterprise:1.0"\], "userName": "other\_username", "nickName": "CircleHD\_username", "name": { "familyName": "Last", "givenName": "First", "honorificPrefix": "Ms." }, "displayName": "First Last", "profileUrl": "[https://login.example.com/CircleHD\_username](https://login.example.com/CircleHD_username)", "emails": \[ { "value": "john.doe@example.com", "type": "work", "primary": true }, { "value": "some\_other@email.com", "type": "home" } \], "addresses": \[ { "streetAddress": "951 Mariners Island blvd", "locality": "Chicago", "region": "IL", "postalCode": "60613", "country": "USA", "primary": true }, \], "phoneNumbers": \[ { "value": "555-555-5555", "type": "work" }, { "value": "123-456-7890", "type": "mobile" } \], "photos": \[ { "value": "[https://photos.example.com/profilephoto.jpg](https://photos.example.com/profilephoto.jpg)", "type": "photo" }, \], "roles": \[ { "value": "Tech Lead", "primary": "true" } \], "userType": "Employee", "title": "Sales Manager", "preferredLanguage":"en\_US", "locale": "en\_US", "timezone": "America/Chicago", "active":true, "password":"sooopersec3et", "urn:scim:schemas:extension:enterprise:1.0": { "employeeNumber": "701984", "costCenter": "4130", "organization": "Chicago Cubs", "division": "Sales", "department": "Enterprise", "manager": { "managerId": "mgr@example.com" } } }  
+  
+`{ "schemas": ["urn:scim:schemas:core:1.0", "urn:scim:schemas:extension:enterprise:1.0"], "userName": "other_username", "nickName": "CircleHD_username", "name": { "familyName": "Last", "givenName": "First", "honorificPrefix": "Ms." }, "displayName": "First Last", "profileUrl": "`[`https://login.example.com/CircleHD_username`](https://login.example.com/CircleHD_username)`", "emails": [ { "value": "john.doe@example.com", "type": "work", "primary": true }, { "value": "some_other@email.com", "type": "home" } ], "addresses": [ { "streetAddress": "951 Mariners Island blvd", "locality": "Chicago", "region": "IL", "postalCode": "60613", "country": "USA", "primary": true }, ], "phoneNumbers": [ { "value": "555-555-5555", "type": "work" }, { "value": "123-456-7890", "type": "mobile" } ], "photos": [   
+{ "value": "`[`https://photos.example.com/profilephoto.jpg`](https://photos.example.com/profilephoto.jpg)`","type": "photo" }, ], "roles": [ { "value": "Tech Lead", "primary": "true" } ], "userType": "Employee", "title": "Sales Manager", "preferredLanguage":"en_US", "locale": "en_US", "timezone": "America/Chicago", "active":true, "password":"sooopersec3et", "urn:scim:schemas:extension:enterprise:1.0": { "employeeNumber": "701984", "costCenter": "4130", "organization": "Chicago Cubs", "division": "Sales", "department": "Enterprise", "manager": { "managerId": "mgr@example.com" } } }`  
+  
 
 
 _PATCH /Users/{id}_
 
 Updates an existing user resource, overwriting values for specified attributes. Attributes that are not provided will remain unchanged.  
-
-
+  
 Disabled users can be re-enabled by sending active attribute equal to true. The value of the {id} should be the user's corresponding CircleHD ID.  
-
-
+  
 `{ "schemas": [  
         "urn:scim:schemas:core:1.0"  
     ],  
@@ -238,81 +247,50 @@ Disabled users can be re-enabled by sending active attribute equal to true. The 
         }  
     ]  
 }`  
-
+  
+__
 
 _PUT /Users/{id}_
 
 Updates an existing user resource, overwriting all values for a user even if an attribute is empty or not provided. If an attribute that had been set previously is left blank during a PUT operation, the new value will be blank in accordance with the data type of the attribute and the storage provider.  
-
-
-Deactivated users can be re-enabled by setting the active attribute to true. The value of the {id} should be the user's corresponding CircleHD ID.  
-
-
-{
-
-    "schemas": \[
-
-        "urn:scim:schemas:core:1.0"
-
-    \],
-
-    "id": "john.doe@example.com",
-
-    "active": false,
-
-    "userName": "other\_username",
-
-    "nickName": "CircleHD\_username",
-
-    "name": {
-
-        "givenName": "First",
-
-        "familyName": "Last"
-
-    },
-
-    "title": "Ms.",
-
-    "emails": \[
-
-        {
-
-            "value": "john.doe@example.com",
-
-            "primary": true
-
-        }
-
-    \],
-
-    "photos": \[
-
-        {
-
-            "value": "https://some.image/url",
-
-            "type": "photo"
-
-        }
-
-    \]
-
-}  
+  
+__Deactivated users can be re-enabled by setting the active attribute to true. The value of the {id} should be the user's corresponding CircleHD ID.  
+  
+`{  
+    "schemas": [  
+        "urn:scim:schemas:core:1.0"    ],  
+        "id": "john.doe@example.com",  
+        "active": false,  
+        "userName": "other_username",  
+        "nickName": "CircleHD_username",  
+        "name": {  
+        "givenName": "First",  
+        "familyName": "Last"  
+        },  
+        "title": "Ms.",  
+        "emails": [  
+        {  
+          "value": "john.doe@example.com",  
+          "primary": true  
+         }  
+        ],  
+     "photos": [  
+      {   
+       "value": "https://some.image/url",  
+       "type": "photo"  
+       }  
+      ]  
+}`  
 
 
 _DELETE /Users/{id}_
 
 Sets a CircleHD user to deactivated and hides this user from all future requests. The value of the {id} should be the user's corresponding CircleHD ID.  
-
-
-   DELETE /api/scim/v2/Users/100 HTTP/1.1
-
-    Host: &lt;your subdomain&gt;.circlehd.com
-
-    Accept: application/json
-
-    Authorization: Basic nyzxSLInlhff5tOxuGpeC29iEe9c=  
+  
+   `DELETE /api/scim/v2/Users/100 HTTP/1.1  
+Host: <your subdomain>.circlehd.com  
+Accept: application/json  
+Authorization: Basic nyzxSLInlhff5tOxuGpeC29iEe9c=`  
 
 
 #### Groups
