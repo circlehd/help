@@ -6,7 +6,7 @@ description: This page is a guidance for how to enable SCIM integration with Cir
 
 ## Overview
 
-SCIM or System for Cross-Domain Identity Management is a federated provisioning protocol that provides a consistent API for user and group CRUD \(Create, Read, Update and Delete\) actions. With System for Cross-domain Identity Management \(SCIM\), administrators / developers can automate the exchange of user identity information between systems.
+SCIM \(System for Cross-Domain Identity Management\) is a federated provisioning protocol that provides a consistent API for user and group CRUD \(Create, Read, Update and Delete\) actions. With SCIM, administrators / developers can automate the exchange of user identity information between systems.
 
 If your organization uses SAML SSO, you can implement SCIM to add, manage, and remove organization members' access to CircleHD.
 
