@@ -4,21 +4,21 @@ description: This page is a guidance for how to enable SCIM integration with Cir
 
 # SCIM
 
-## SCIM Overview
+## Overview
 
-SCIM or System for Cross-Domain Identity Management is a federated provisioning protocol. Providing a consistent API for user and group CRUD \(Create, Read, Update and Delete\) actions. With System for Cross-domain Identity Management \(SCIM\), administrators / developers can automate the exchange of user identity information between systems.
+SCIM or System for Cross-Domain Identity Management is a federated provisioning protocol that provides a consistent API for user and group CRUD \(Create, Read, Update and Delete\) actions. With System for Cross-domain Identity Management \(SCIM\), administrators / developers can automate the exchange of user identity information between systems.
 
-If you use SAML SSO in your organization, you can implement SCIM to add, manage, and remove organization members' access to CircleHD.
+If your organization uses SAML SSO, you can implement SCIM to add, manage, and remove organization members' access to CircleHD.
 
-If you use SAML SSO without implementing SCIM, you won't have automatic deprovisioning. When organization members' sessions expire after their access is removed from the IdP, they aren't automatically removed from the other systems. Authorized tokens grant access to the organization even after their sessions expire. To remove access, organization administrators can either manually remove the authorized token from the organization or automate its removal with SCIM.
+If you use SAML SSO without implementing SCIM, you won't have automatic deprovisioning. When organization members' sessions expire after their access is removed from the IdP, they aren't automatically removed from the other systems. Authorized tokens grant access to the organization even after their sessions expire. To remove access, organization administrators / developers can either manually remove the authorized token from the organization or automate its removal with SCIM.
 
-These identity providers are compatible with the CircleHD SCIM API.
+Below identity providers are compatible with CircleHD SCIM API.
 
 * Azure AD
 * Okta
 * OneLogin
 
-SCIM can be used by developers to standardize the way user profile information is retrieved from a data source \(i.e. instead of having to manage connections to SQL tables, LDAP datastores and other data stores SCIM can provide a single interface to this data\).
+SCIM can also be used by administrators / developers to standardize the way user profile information is retrieved from a data source \(i.e. instead of having to manage connections to SQL tables, LDAP datastores and other data stores, SCIM provides a single interface to this data\).
 
 ### Model
 
@@ -26,15 +26,15 @@ SCIM 2.0 is built on an object model where a Resource is the common denominator 
 
 ## SCIM Components and Roles
 
-SCIM contains three main components, as with a number of the federation protocols, the terminology can be slightly confusing so we describe the components below:
+SCIM consists of three main components, as with a number of the federation protocols, the terminology could get slightly confusing so we describe the components below:
 
-* Service Provider The provider of the identity information \(in a traditional enterprise scenario, the SCIM Service Provider is most likely the same as the SAML Identity Provider\). For a majority of this guide we will use Okta Directory as an example of a SCIM Service Provider.  
-* SCIM Consumer The application or service that will consume the SCIM data. For example in a federated provisioning scenario, the SCIM Consumer will be the 3rd party receiving the identity information which is CircleHD in this case.  
-* Resource The object \(i.e. a User or a Group\) that the SCIM request is being performed on.
+* _Service Provider_ Is the provider of the identity information \(in a traditional enterprise scenario, the SCIM Service Provider is most likely the same as the SAML Identity Provider\). For most of the examples in this guide, we will use Okta Directory as SCIM Service Provider. 
+* _SCIM Consumer_ Is the application or service that will consume the SCIM data. For e.g., in a federated provisioning scenario, the SCIM Consumer is the 3rd party receiving the identity information, which is CircleHD in this scenario. 
+* _Resource_ Is the object \(User / Group\) that SCIM request will be performed on.
 
 ## SCIM Actions
 
-The SCIM protocol uses the REST concept to define the actions a SCIM Consumer can perform on a resource managed by a SCIM Service Provider. These actions are:  
+The SCIM protocol uses REST concept to define actions that a SCIM Consumer can perform on a resource managed by a SCIM Service Provider. Actions are mentioned below:  
 
 
 <table>
@@ -47,64 +47,59 @@ The SCIM protocol uses the REST concept to define the actions a SCIM Consumer ca
   <tbody>
     <tr>
       <td style="text-align:left">GET</td>
-      <td style="text-align:left">Reads a resource (or resources) from the Service Provider</td>
+      <td style="text-align:left">Reads resource (or resources) from Service Provider</td>
     </tr>
     <tr>
       <td style="text-align:left">POST</td>
-      <td style="text-align:left">Creates a new resource at the Service Provider</td>
+      <td style="text-align:left">Creates new resource(s) at the Service Provider</td>
     </tr>
     <tr>
       <td style="text-align:left">PUT</td>
       <td style="text-align:left">Updates an existing resource, as this action requires the entire resource
-        provided in the body, it is more like a replace than an update</td>
+        provided in the body, it would function more like a replace than an update</td>
     </tr>
     <tr>
       <td style="text-align:left">PATCH</td>
       <td style="text-align:left">
-        <p>Updates an existing resource with changes (where supported).</p>
+        <p>Updates existing resource with changes (wherever supported).</p>
         <p>Note: The PATCH action is optional and not supported in CircleHD currently</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">DELETE</td>
-      <td style="text-align:left">Deletes a resource at the Service Provider</td>
+      <td style="text-align:left">Deletes resource at the Service Provider</td>
     </tr>
   </tbody>
 </table>## SCIM Schema
 
-SCIM provides a standard schema that can be used to represent a user or a group. This schema is extensible so additional schema objects can be added to provide custom schema support.
+SCIM provides a standard schema used to represent a user or a group. This schema is extensible so additional schema objects can be added or existing ones can be modified to provide custom schema support.
 
-Along with the SCIM schema, specific data types are defined to simplify interoperability between partners.
+Along with the SCIM schema, specific data types are defined to simplify interoperability between integration partners.
 
-### Accessing the SCIM API
+### Accessing SCIM API
 
-Similar to other CircleHD integration REST API's, the SCIM methods are accessed over the standby protocol, HTTP. Being a REST API, the HTTP verb \(e.g. GET or POST or PATCH or even DELETE\) used for each API method is important. Typically you will use GET to retrieve information, POST to create new objects, PUT and PATCH to modify objects, and DELETE to remove.  
+Similar to other CircleHD integration REST API's, the SCIM methods are accessed over the standby HTTP  protocol. Being a REST API, the HTTP verb \(e.g. GET or POST or PATCH or even DELETE\) used for each API method is critical. You will use GET to retrieve information, POST to create new objects, PUT and PATCH to modify objects, and DELETE to remove.  
+  
+The base URL for all calls to the SCIM API is https://&lt;subdomain&gt;.circlehd.com/api/scim/v2. All SCIM methods are extensions of this base URL.  
 
-
-The base URL for all calls to the SCIM API is https://&lt;subdomain&gt;.circlehd.com/api/scim/v2. All SCIM methods are branches of this base URL.  
-
-
-## CircleHD Cloud Identity Security Architecture
 
 ![CircleHD Cloud Identity Security Architecture](https://lh5.googleusercontent.com/X1W-SYHz3kaola9E-usJvcpMuB9Ma4M2iMaSEWcTut3fs5WpjRK4PlWnUwK0n2zZ7iWphxSyCWBtdxtJSP2-BppUpTP6P5BCHUrF-xNcYmJnoBM4O4cxQd9IZ9JZtQfO_fJvGF4)
 
-### SCIM endpoints
+### SCIM Endpoints
 
-The SCIM API is RESTful and the endpoint URLs are different than other CircleHD API endpoints.
+The SCIM API is RESTful and the endpoint URLs are not similar to other CircleHD API endpoints.
 
-### How to enable the SCIM for your organization?
+### How to enable SCIM for your organization?
 
-The SCIM url can only be retrieved by an admin user in CircleHD. From the top right menu, navigate to Portal Settings, Select SCIM under settings.  
+The SCIM url can only be retrieved by an admin user in CircleHD. From the top right menu, navigate to Portal Settings, Select SCIM under Security Settings.  
 
 
 ![](https://lh4.googleusercontent.com/4zfsBOg7OgX0BGdw3dx34j4-DcA9M77zJP-tLbYFJc6jrC3VIHZR3q8BjWmp2Afvb5HdAD-qal6PR9DG5kYY7IjanavI9pSpRiYaQNjQm6lIRpQR-DwPRYlX8dR64C7ztN0IeJs)
 
 Enable SCIM by turning the switch ON. Click save to generate the SCIM Password.  
-
-
-NOTE: the password can not be re-retrieved once this section is saved. You must note the password before proceeding.  
-
-
+  
+NOTE: the password cannot be re-retrieved once this section is saved. You must note the password before proceeding.  
+  
 Example:  
 
 
@@ -113,7 +108,7 @@ Example:
 | USERNAME | scim |
 | PASSWORD | generated above |
 
-#### Authentication:
+#### Authentication
 
 SCIM Endpoint requires Basic Authentication. The username is SCIM.
 
@@ -141,7 +136,7 @@ Returns CircleHD's configuration details for how groups are formatted.
 
 As you might expect, users map to the individuals of your team across a workspace or Grid organization. Each user contains properties called attributes, like userName and title. You can list users, filter by attribute, add new users, update a user's profile information, or remove a user entirely.
 
-#### User attributes
+#### User Attributes
 
 Attributes are the details associated with a user's account. These are the details that someone would typically set in their profile \(for example, by clicking the Edit Profile Button in the CircleHD web application\).  
 
@@ -161,7 +156,7 @@ Not every attribute will be displayed in a user's profile --- for example, activ
 The password attribute is never returned but can be used to set the initial password for a user if the team is not using an identity manager.  
 
 
-Standard attributes
+_Standard attributes_
 
 | Username | userName | string |
 | :--- | :--- | :--- |
@@ -186,9 +181,9 @@ Other custom attributes
 | LOCATION | location | string |
 | GROUP MEMBERSHIPS | groups | Array&lt;string&gt; \(CSV\) |
 
-#### User methods
+#### User Methods
 
-GET /Users
+_GET /Users_
 
 Returns a paginated list of users, ten users per page by default. When querying large CircleHD instances, reduce the count parameter to 1000 or less, and use the startIndexparameter to paginate through users.  
 
@@ -202,7 +197,7 @@ Accept: application/json
 Authorization: Basic nyzxSLInlhff5tOxuGpeC29iEe9c=`  
 
 
-GET /Users/{id}
+_GET /Users/{id}_
 
 Retrieves a single user resource. The value of the {id} should be the user's corresponding CircleHD ID.  
 
@@ -212,7 +207,7 @@ Host: <your subdomain>.circlehd.com
 Accept: application/json  
 Authorization: Basic nyzxSLInlhff5tOxuGpeC29iEe9c=`
 
-POST /Users
+_POST /Users_
 
 Creates a user. Must include the userName attribute and at least one email address. You may provide an email address in the userName field, but it will be automatically converted to a CircleHD-appropriate username.  
 
@@ -223,7 +218,7 @@ This example request body provides a detailed example of which attributes Circle
 { "schemas": \["urn:scim:schemas:core:1.0", "urn:scim:schemas:extension:enterprise:1.0"\], "userName": "other\_username", "nickName": "CircleHD\_username", "name": { "familyName": "Last", "givenName": "First", "honorificPrefix": "Ms." }, "displayName": "First Last", "profileUrl": "[https://login.example.com/CircleHD\_username](https://login.example.com/CircleHD_username)", "emails": \[ { "value": "john.doe@example.com", "type": "work", "primary": true }, { "value": "some\_other@email.com", "type": "home" } \], "addresses": \[ { "streetAddress": "951 Mariners Island blvd", "locality": "Chicago", "region": "IL", "postalCode": "60613", "country": "USA", "primary": true }, \], "phoneNumbers": \[ { "value": "555-555-5555", "type": "work" }, { "value": "123-456-7890", "type": "mobile" } \], "photos": \[ { "value": "[https://photos.example.com/profilephoto.jpg](https://photos.example.com/profilephoto.jpg)", "type": "photo" }, \], "roles": \[ { "value": "Tech Lead", "primary": "true" } \], "userType": "Employee", "title": "Sales Manager", "preferredLanguage":"en\_US", "locale": "en\_US", "timezone": "America/Chicago", "active":true, "password":"sooopersec3et", "urn:scim:schemas:extension:enterprise:1.0": { "employeeNumber": "701984", "costCenter": "4130", "organization": "Chicago Cubs", "division": "Sales", "department": "Enterprise", "manager": { "managerId": "mgr@example.com" } } }  
 
 
-PATCH /Users/{id}
+_PATCH /Users/{id}_
 
 Updates an existing user resource, overwriting values for specified attributes. Attributes that are not provided will remain unchanged.  
 
@@ -245,7 +240,7 @@ Disabled users can be re-enabled by sending active attribute equal to true. The 
 }`  
 
 
-PUT /Users/{id}
+_PUT /Users/{id}_
 
 Updates an existing user resource, overwriting all values for a user even if an attribute is empty or not provided. If an attribute that had been set previously is left blank during a PUT operation, the new value will be blank in accordance with the data type of the attribute and the storage provider.  
 
@@ -306,7 +301,7 @@ Deactivated users can be re-enabled by setting the active attribute to true. The
 }  
 
 
-DELETE /Users/{id}
+_DELETE /Users/{id}_
 
 Sets a CircleHD user to deactivated and hides this user from all future requests. The value of the {id} should be the user's corresponding CircleHD ID.  
 
@@ -324,33 +319,33 @@ Sets a CircleHD user to deactivated and hides this user from all future requests
 
 Groups are for organizing users in logical divisions across a workspace, such as by team or affinity. Group attributes are the details associated with a group. This feature is currently not supported in CircleHD’s scim gateway
 
-GET /Groups
+_GET /Groups_
 
-Not supported
+Not supported currently.
 
-GET /Groups/{id}
+_GET /Groups/{id}_
 
-Not supported
+Not supported currently.
 
-POST /Groups
+_POST /Groups_
 
-Not supported
+Not supported currently.
 
-PATCH /Groups/{id}
+_PATCH /Groups/{id}_
 
-Not supported
+Not supported currently.
 
-PUT /Groups/{id}
+_PUT /Groups/{id}_
 
-Not supported
+Not supported currently.
 
-DELETE /Groups/{id}
+_DELETE /Groups/{id}_
 
-Not supported
+Not supported currently.
 
 ### Errors
 
-Occasionally, interacting with our APIs will result in an error instead of the results you're expecting. CircleHD will make every attempt to respond with a descriptive error message that will help you figure out what went wrong and how to fix it.  
+Occasionally, interacting with CircleHD SCIM APIs may result in an error instead of the results you're expecting. CircleHD will make every attempt to respond with a descriptive error message that will help you figure out what went wrong and how to fix it.  
 
 
 | Error | Description |
@@ -371,10 +366,10 @@ Occasionally, interacting with our APIs will result in an error instead of the r
 | username\_taken | When provisioning a new user via SCIM, usernames must be unique. |
 | username\_too\_long | The specified username is too long \(max length is 21 characters\). |
 
-### SCIM provisioning limitations
+### SCIM Provisioning Limitations
 
 * Users can not be permanently deleted from CircleHD, they can only be deactivated.
-* Attempts to provision a user with a duplicate email address \(even if the existing user has been previously deactivated in CircleHD\) will fail. The existing user email address must be updated manually in CircleHD to free up the email to be reprovisioned.
+* Attempts to provision a user with a duplicate email address \(even if the existing user has been previously deactivated in CircleHD\) will fail. The existing user email address must be updated manually in CircleHD to free up the email to be re-provisioned.
 * When creating a new user, if anything in custom profile is invalid, all profile fields will be dropped
 * The SCIM API is rate limited. If your requests are being limited, an HTTP: 429 error will be returned.
 * CircleHD does not store type for addresses. The type field will be used to determine which address is the "primary address" if the request does not specify one, however the type is not stored.
