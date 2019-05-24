@@ -287,7 +287,7 @@ _DELETE /Users/{id}_
 
 Sets a CircleHD user to deactivated and hides this user from all future requests. The value of the {id} should be the user's corresponding CircleHD ID.  
   
-   `DELETE /api/scim/v2/Users/100 HTTP/1.1  
+`DELETE /api/scim/v2/Users/100 HTTP/1.1  
 Host: <your subdomain>.circlehd.com  
 Accept: application/json  
 Authorization: Basic nyzxSLInlhff5tOxuGpeC29iEe9c=`  
