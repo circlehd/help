@@ -100,8 +100,7 @@ Enable SCIM by turning the switch ON. Click save to generate the SCIM Password.
   
 NOTE: the password cannot be re-retrieved once this section is saved. You must note the password before proceeding.  
   
-_Example_  
-
+_Example_
 
 <table>
   <thead>
@@ -137,6 +136,8 @@ _GET /ServiceProviderConfigs_
 
 Returns CircleHD's configuration details for our SCIM API, including which operations are supported.
 
+#### 
+
 #### Schemas
 
 CircleHD currently supports schemas for users and groups. Querying the schemas will provide the most up-to-date rendering of the supported SCIM attributes.
@@ -145,9 +146,12 @@ _GET /Schemas/Users_
 
 Returns CircleHD's configuration details for how users are formatted.
 
+  
 _GET /Schemas/Groups_
 
 Returns CircleHD's configuration details for how groups are formatted, not supported currently in CircleHD.
+
+#### 
 
 #### Users
 
@@ -178,7 +182,7 @@ _Standard attributes_
 | Profile URL | profileUrl | string |
 | Profile Photo | photos\[0\]\['values'\] | Array&lt;string&gt; |
 
-Other custom attributes
+_Other Custom Attributes_
 
 | CircleHD Field | SAML/SCIM Attribute | Data Type |
 | :--- | :--- | :--- |
