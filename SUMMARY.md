@@ -10,6 +10,7 @@
   * [How to Reset Password?](getting-started/how-to-reset-password.md)
   * [System FrontPage](getting-started/system-frontpage.md)
   * [How To Explore All Portal Videos?](getting-started/how-to-explore-all-portal-videos.md)
+  * [How to use Full Text Search and custom fields for Content Discovery](getting-started/using-full-text-search-and-custom-fields-for-content-discovery.md)
   * [How to Open My History List?](getting-started/how-to-open-my-history-list.md)
   * [How to Logout?](getting-started/how-to-logout.md)
 * [VIDEOS](videos/README.md)
