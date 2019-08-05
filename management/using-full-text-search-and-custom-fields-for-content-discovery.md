@@ -32,13 +32,13 @@ Creating custom fields in CircleHD is an admin only option, it allows them to cr
 
 2. Click on Configuration =&gt; Custom Fields in the left menu
 
-![Custom Fields Settings](https://lh4.googleusercontent.com/VWrGzGlYnWLV_v0QD3YNPn-JwHF_uR7FXxaNh-sQ17gpDc86FaSq90nk_ZQiaBv5fUTN6ddoJ2eNkNeT7d0RrTkXvzIf-mqs7Fy5vWKCiVS_td3oP8SkUlyNZsCZDrBsQTuY8IXe)
+![Custom Fields Admin Settings](https://lh4.googleusercontent.com/VWrGzGlYnWLV_v0QD3YNPn-JwHF_uR7FXxaNh-sQ17gpDc86FaSq90nk_ZQiaBv5fUTN6ddoJ2eNkNeT7d0RrTkXvzIf-mqs7Fy5vWKCiVS_td3oP8SkUlyNZsCZDrBsQTuY8IXe)
 
 3. Click on “Add New Field” button, you will see a popup to enter custom field values. 
 
 4. Enter the Name of the custom field, select type and enter values in the text box below if its an option type or a multiple option type.
 
-![Creating Custom Fields](https://lh3.googleusercontent.com/c45CpnDy9E031-voyLFvmiTMPxV7rCqBcIe2bN7D0iLLUwS5YwT9koEtajqTjkvFi3wcqtszAQ67D2p0NTnJeb6u0XovINWUTUyMv0cMmSbO-uW4_5WRT7s3Dijh4zQC2UF5xOxn)
+![Editing Custom Fields](https://lh3.googleusercontent.com/c45CpnDy9E031-voyLFvmiTMPxV7rCqBcIe2bN7D0iLLUwS5YwT9koEtajqTjkvFi3wcqtszAQ67D2p0NTnJeb6u0XovINWUTUyMv0cMmSbO-uW4_5WRT7s3Dijh4zQC2UF5xOxn)
 
 5. If custom field values are set for a content piece, then CircleHDs smart search will index those values and you would be able to use this to narrow down or filter results further.
 
