@@ -3,6 +3,26 @@ description: This page will contain the history of changes as they were introduc
 ---
 
 # Change Logs
+## 09/02/2019
+No releases this week. Happy labor day!
+
+## 08/26/2019
+- Bug fixes
+- Fix Multiline support for commenting. 
+- Prep for Zoom Integration release (alpha)
+- Android app v3 release
+
+## 08/19/2019
+- Dropped support for v1 Mobile api
+
+## 08/12/2019
+- Course Authoring UI v2 Beta
+
+## 08/05/2019
+- Bug fixes
+- Playlist creation UX update.
+
+<hr/>
 
 ## 08/20/2018
 
