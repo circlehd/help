@@ -3,26 +3,30 @@ description: This page will contain the history of changes as they were introduc
 ---
 
 # Change Logs
+
 ## 09/02/2019
+
 No releases this week. Happy labor day!
 
 ## 08/26/2019
-- Bug fixes
-- Fix Multiline support for commenting. 
-- Prep for Zoom Integration release (alpha)
-- Android app v3 release
+
+* Bug fixes
+* Fix Multiline support for commenting. 
+* Prep for Zoom Integration release \(alpha\)
+* Android app v3 release
 
 ## 08/19/2019
-- Dropped support for v1 Mobile api
+
+* Dropped support for v1 Mobile api
 
 ## 08/12/2019
-- Course Authoring UI v2 Beta
+
+* Course Authoring UI v2 Beta
 
 ## 08/05/2019
-- Bug fixes
-- Playlist creation UX update.
 
-<hr/>
+* Bug fixes
+* Playlist creation UX update.
 
 ## 08/20/2018
 
@@ -37,7 +41,7 @@ Site load performs much faster than before. We have tweaked the underlined ajax 
 
 ### New features
 
-Users can export  analytics for individual videos to Excel.
+Users can export analytics for individual videos to Excel.
 
 ## 08/13/2018
 
@@ -75,12 +79,4 @@ Read more on [our blog](https://www.circlehd.com/blog/automated-audio-to-text-vi
 1. Lesson is Playlist can be assigned to users
 2. Tracked user progress
 3. Completion certificate.
-
-#### 
-
-
-
-
-
-
 

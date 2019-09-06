@@ -59,6 +59,7 @@
     * [Steps to Integrate SSO with CircleHD](management/settings/steps-to-integrate-sso-with-circlehd.md)
     * [Advanced Meta-Data](management/settings/advanced-meta-data.md)
     * [Slack Integration](management/settings/slack-integration.md)
+    * [Zoom Integration](management/settings/zoom-integration.md)
   * [How to Manage Portal Users?](management/how-to-manage-portal-users.md)
   * [How to Manage Portal Media?](management/how-to-manage-portal-media.md)
   * [How to Invite Teams to The Portal?](management/how-to-invite-teams-to-the-portal.md)
