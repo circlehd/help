@@ -4,6 +4,16 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 09/16/2019 - Coming up...
+
+* Share / Pitch Video directly using Email option
+
+## 09/09/2019
+
+* UX Update - New Font treatment, Vertical Line Spacing
+* Zoom Integration  
+* Automated Transcription and Closed Captioning for every Video Upload
+
 ## 09/02/2019
 
 No releases this week. Happy labor day!
