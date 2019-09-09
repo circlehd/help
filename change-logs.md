@@ -77,6 +77,7 @@ Read more on [our blog](https://www.circlehd.com/blog/automated-audio-to-text-vi
 #### Lesson
 
 1. Lesson is Playlist can be assigned to users
-2. Tracked user progress
-3. Completion certificate.
+2. Quiz support in Playlist
+3. Tracked user progress
+4. Completion certificate.
 
