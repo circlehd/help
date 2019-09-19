@@ -4,7 +4,7 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
-## 09/16/2019 - Coming up...
+## 09/16/2019 
 
 * Share / Pitch Video directly using Email option
 
