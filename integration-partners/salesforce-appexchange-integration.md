@@ -21,5 +21,5 @@ Package will be now installed in your org, please follow steps to add CircleHD t
 
 You can now go to CircleHD tab. If you dont see the CircleHD tab, please click the "+"' sign to add a new tab, select CircleHD from the tab list.
 
-**Note;** This package installation is supported in Enterprise and Unlimited editions of Salesforce only.
+**Note;** You must have a paid CircleHD account and Admin privilege to install Salesforce integration. This package installation is supported in Enterprise and Unlimited editions of Salesforce only.
 
