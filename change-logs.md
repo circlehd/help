@@ -4,6 +4,10 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 09/23/2019
+
+No releases this week. Happy a good week!
+
 ## 09/16/2019 
 
 * Share / Pitch Video directly using Email option
