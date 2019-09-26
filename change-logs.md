@@ -6,7 +6,7 @@ description: This page will contain the history of changes as they were introduc
 
 ## 09/23/2019
 
-No releases this week. Happy a good week!
+No releases this week. Have a good week!
 
 ## 09/16/2019 
 
