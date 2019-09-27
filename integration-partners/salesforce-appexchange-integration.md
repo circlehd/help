@@ -5,21 +5,20 @@
 Please follow steps below for installation;
 
 1. Login Salesforce org credentials.
-2. Paste Package URL mentioned above.
-3. Enter package password if prompted. Please contact support@circlehd.com for getting the password.
-4. Click on Install for all user radio button.
-5. Click Install button.
+2. Paste Package URL in the browser address bar, hit enter.
+3. Enter package password if prompted, please contact support@circlehd.com to get the package password.
+4. Select "Install for all Users" option, select checkbox below and click install.
 
-Package will be now installed in your org, please follow steps to add CircleHD tab;
+Package will be now installed in your org, please follow next steps below to add CircleHD tab to navigation bar;
 
-1. Go to Set up &gt; Custom Setting &gt; CircleHD Settings &gt; Manage
-2. Click on New button.
-3. Enter following values:
-   1. Name = CircleHD Settings
-   2. Access Key = 954e5926dc5affa9cf0ef1
-   3. Base URL = [https://demo.circlehd.com](https://demo.circlehd.com)
+1. Click on App Launcher icon 
+2. Search for CircleHD
+3. Click CircleHD under "All Items" section.
+4. Select "Add CircleHD to Nav bar" option in the drop down.
 
-You can now go to CircleHD tab. If you dont see the CircleHD tab, please click the "+"' sign to add a new tab, select CircleHD from the tab list.
+CircleHD will be added as one of the tabs in Salesforce UI. 
+
+For any questions or issues, please reach out to support@circlehd.com.
 
 **Note;** You must have a paid CircleHD account and Admin privilege to install Salesforce integration. This package installation is supported in Enterprise and Unlimited editions of Salesforce only.
 

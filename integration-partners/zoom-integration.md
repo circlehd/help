@@ -17,15 +17,15 @@ If you have Admin access on CircleHD portal and Zoom, please follow below steps:
 
 2. Click on "Integrations" in the left navigation, to load all integration options. 
 
-![Integration Options on CircleHD](../.gitbook/assets/image%20%283%29.png)
+![Integration Options on CircleHD](../.gitbook/assets/image%20%284%29.png)
 
 3. Click on "Add to zoom" button which is next Zoom option.
 
-![Zoom Integration option on CircleHD portal](../.gitbook/assets/image%20%2812%29.png)
+![Zoom Integration option on CircleHD portal](../.gitbook/assets/image%20%2814%29.png)
 
 4. It will prompt you to login to your Zoom account, please use your admin user account to login to Zoom. Once you login to your Zoom account, it will prompt you to login 
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 5. Once you are logged into Zoom as an admin, it will ask you again to log into CircleHD Portal, upon it will create a Channel as "Zoom Cloud Recordings". Once any call in zoom is recorded using the cloud option, it will automatically push the recording to your CircleHD portal under the folder "Zoom Cloud Recordings".
 
