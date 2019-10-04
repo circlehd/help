@@ -29,5 +29,11 @@ If you have Admin access on CircleHD portal and Zoom, please follow below steps:
 
 5. Once you are logged into Zoom as an admin, it will ask you again to log into CircleHD Portal, upon it will create a Channel as "Zoom Cloud Recordings". Once any call in zoom is recorded using the cloud option, it will automatically push the recording to your CircleHD portal under the folder "Zoom Cloud Recordings".
 
+6. For any issues or questions related to Zoom integration,  you can 
+
+* email us at support@circlehd.com or 
+* open a ticket at [https://www.circlehd.com/contactus/](https://www.circlehd.com/contactus/) or
+* call our friendly support team at [+1855-411-3800](tel:18554113800)
+
 
 
