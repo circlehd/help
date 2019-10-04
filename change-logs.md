@@ -6,7 +6,7 @@ description: This page will contain the history of changes as they were introduc
 
 ## 10/07/2019 - Coming up...
 
-* Email Pitch / Share option for Videos / Assets 
+* Zoom Marketplace App
 
 ## 09/30/2019
 
