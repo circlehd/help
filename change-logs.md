@@ -6,7 +6,7 @@ description: This page will contain the history of changes as they were introduc
 
 ## 09/30/2019
 
-* Code Refactoring for optimizing upload process
+* Code Refactoring for optimizing portal performance \(Upload and Media List Pages\)
 * Basic Groups Support - Beta
 * Fixed Sorting issue on My Uploads / Media Manager page
 * Added Email Pitch / Share option for Videos / Assets 
