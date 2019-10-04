@@ -4,6 +4,13 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 09/30/2019
+
+* Code Refactoring for optimizing upload process
+* Basic Groups Support - Beta
+* Fixed Sorting issue on My Uploads / Media Manager page
+* Added Email Pitch / Share option for Videos / Assets 
+
 ## 09/23/2019
 
 No releases this week. Have a good week!
@@ -16,7 +23,7 @@ No releases this week. Have a good week!
 
 * UX Update - New Font treatment, Vertical Line Spacing
 * Zoom Integration  
-* Automated Transcription and Closed Captioning for every Video Upload
+* Automated Transcription and Closed Captioning for every Video Upload - Beta
 
 ## 09/02/2019
 
