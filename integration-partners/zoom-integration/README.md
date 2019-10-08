@@ -9,9 +9,8 @@ description: >-
 
 Please follow below links for Zoom Integration help;
 
-* Installation Steps using CircleHD Portal / Landing Page
-* Installation Steps using Zoom Marketplace
-* Uninstall Steps for Zoom Integration App
+* [Installation Steps](https://help.circlehd.com/integration-partners/zoom-integration/installation-steps-using-circlehd-portal-landing-page) 
+* [Uninstall Steps](https://help.circlehd.com/integration-partners/zoom-integration/uninstall-steps)
 
 For any issues or questions related to Zoom integration,  you can 
 
