@@ -9,7 +9,7 @@ description: >-
 
 Please follow below links for Zoom Integration help;
 
-* [Installation Steps](https://help.circlehd.com/integration-partners/zoom-integration/installation-steps-using-circlehd-portal-landing-page) 
+* [Installation Steps ](https://help.circlehd.com/integration-partners/zoom-integration/installation-steps-using-circlehd-portal-landing-page)
 * [Uninstall Steps](https://help.circlehd.com/integration-partners/zoom-integration/uninstall-steps)
 
 For any issues or questions related to Zoom integration,  you can 

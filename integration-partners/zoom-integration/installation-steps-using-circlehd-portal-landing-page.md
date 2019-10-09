@@ -7,8 +7,8 @@ Admin access on CircleHD portal and Zoom, please follow below steps:
 **From Zoom Marketplace;**
 
 1. Go to Zoom marketplace, [https://marketplace.zoom.us/](https://marketplace.zoom.us/), on top right search for "CircleHD"
-2. Select CircleHD By CircleHD Inc. app, and click on Install link. This will take you to the CircleHD Zoom app landing page. 
-3. Click Zoom link on landing page, it will load the CircleHD sign page. Continue to follow steps below.
+2. Select CircleHD, By CircleHD Inc. app, and click on Install link. This will take you to the CircleHD Zoom app landing page. 
+3. Click "ADD TO ZOOM" button link on landing page, it will load the CircleHD login page. Continue to follow steps below once you are logged into your enterprise CircleHD portal.
 
 **From CircleHD Portal;**
 
