@@ -4,9 +4,13 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
-## 10/07/2019 - Coming up...
+## 10/14/2019 - coming up...
 
-* Zoom Marketplace App
+* Zoom Marketplace App - in progress
+
+## 10/07/2019 
+
+* Podcast support - Beta 
 
 ## 09/30/2019
 
@@ -16,7 +20,7 @@ description: This page will contain the history of changes as they were introduc
 
 ## 09/23/2019
 
-No releases this week. Have a good week!
+* No releases this week. Have a good week!
 
 ## 09/16/2019 
 
@@ -30,7 +34,7 @@ No releases this week. Have a good week!
 
 ## 09/02/2019
 
-No releases this week. Happy labor day!
+* No releases this week. Happy labor day!
 
 ## 08/26/2019
 
@@ -65,7 +69,7 @@ Site load performs much faster than before. We have tweaked the underlined ajax 
 
 ### New features
 
-Users can export analytics for individual videos to Excel.
+* Users can export analytics for individual videos to Excel.
 
 ## 08/13/2018
 
@@ -77,12 +81,11 @@ Users can export analytics for individual videos to Excel.
 
 ## 08/03/2018
 
-Fixes: bugs related to analytics
+* Fixes: bugs related to analytics
 
 ### New feature
 
-Transcription: Automatically transcribe videos for reading and search for spoken words.  
-Read more on [our blog](https://www.circlehd.com/blog/automated-audio-to-text-video-transcriptions/)
+* Transcription: Automatically transcribe videos for reading and search for spoken words. Read more on [our blog](https://www.circlehd.com/blog/automated-audio-to-text-video-transcriptions/)
 
 ## 07/27/2018
 
