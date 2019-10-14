@@ -4,9 +4,10 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
-## 10/14/2019 - coming up...
+## 10/14/2019
 
-* Zoom Marketplace App - in progress
+* CircleHD Zoom Integration App released
+* Bug Fixes 
 
 ## 10/07/2019 
 
