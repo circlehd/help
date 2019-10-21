@@ -4,6 +4,10 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 10/21/2019
+
+* No Updates this week, have a good week!
+
 ## 10/14/2019
 
 * CircleHD Zoom Integration App released
