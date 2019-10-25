@@ -4,6 +4,12 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 10/31/2019 - coming up...
+
+* SSO Groups Support
+* Enhanced Analytics Reports and Filters
+* Real Time Updates for Likes, Favorites
+
 ## 10/21/2019
 
 * No Updates this week, have a good week!
