@@ -64,6 +64,7 @@
   * [How to use Full Text Search and custom fields for Content Discovery](management/using-full-text-search-and-custom-fields-for-content-discovery.md)
   * [SSO Key Rotation](management/sso-key-rotation.md)
 * [INTEGRATION PARTNERS](integration-partners/README.md)
+  * [Google SSO Integration](integration-partners/google-sso-integration.md)
   * [Zoom Integration](integration-partners/zoom-integration/README.md)
     * [Installation Steps](integration-partners/zoom-integration/installation-steps-using-circlehd-portal-landing-page.md)
     * [Uninstall Steps - Zoom Integration](integration-partners/zoom-integration/uninstall-steps.md)
