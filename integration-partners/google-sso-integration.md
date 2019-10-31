@@ -10,7 +10,7 @@ description: Use steps below to configure Google SSO Integration with CircleHD P
 
 2. Turn On Enable Single Sign On Switch if its not already turned on. It should display SAML SSO Url, Metadata Uri and Test URL. 
 
-3. Go to Google Admin ****[https://admin.google.com/](https://admin.google.com/) use you admin login. 
+3. Go to Google Admin ****[https://admin.google.com/](https://admin.google.com/) , you will need to use your admin login. 
 
 ![Google Admin Account - Apps](../.gitbook/assets/image%20%286%29.png)
 
@@ -60,15 +60,11 @@ You can upload file "icon-1024x1024.png" to Step 3 Form in Google SSO Steps. Cli
 
 ## Test the Integration
 
-**1-** Navigate to on the Sign in Test URL : https://&lt;YOUR DOMAIN&gt;.circlehd.com/auth/saml2/signin
-
-**2-** Make sure you are able to login to CircleHD domain using your Org SSO Credentials.
-
-**3-** Test this integration from a different browser or Incognito mode.
-
-**4-** Make sure new users can log-in from the test URL without having to be invited first.
-
-**5-** If any of the test fail, you can try again by repeating above steps. If issue persists, please reach out to CircleHD Support at support@circlehd.com.
+1. Navigate to the Sign in Test URL : https://&lt;YOUR DOMAIN&gt;.circlehd.com/auth/saml2/signin
+2. Make sure you are able to login to CircleHD domain using your Org SSO Credentials.
+3. Test this integration from a different browser or Incognito mode.
+4. Make sure new users can log-in from the test URL without having to be invited first.
+5. If any of the test fail, you can try again by repeating above steps. If issue persists, please reach out to CircleHD Support at support@circlehd.com.
 
 ## Activate SSO Throughout The Site
 
