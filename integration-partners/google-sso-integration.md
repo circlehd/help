@@ -10,7 +10,7 @@ description: Use steps below to configure Google SSO Integration with CircleHD P
 
 2. Turn On Enable Single Sign On Switch if its not already turned on. It should display SAML SSO Url, Metadata Uri and Test URL. Copy "Single Signon URL" and keep it handy for future steps.
 
-3. Go to Google Admin ****[https://admin.google.com/](https://admin.google.com/) , you will need to use your admin login. 
+3. Go to Google Admin ****[https://admin.google.com/](https://admin.google.com/) , you will need to use your admin login and your Google account should be a GSuite account. 
 
 ![Google Admin Account - Apps](../.gitbook/assets/image%20%286%29.png)
 
