@@ -4,11 +4,11 @@ description: Use steps below to configure Google SSO Integration with CircleHD P
 
 # Google SSO Integration
 
-1. First, login to your CircleHD portal with your admin credentials, and navigate to Portal Settings -&gt; Single Sign On \(SSO\), which should be at https://&lt;YOUR DOMAIN&gt;.circlehd.com/admin/sso 
+1. First, login to your CircleHD portal with your admin credentials, and navigate to Portal Settings =&gt; Single Sign On \(SSO\), which should be at https://&lt;YOUR DOMAIN&gt;.circlehd.com/admin/sso 
 
-![SSO CircleHD Portal Settings](../.gitbook/assets/image%20%289%29.png)
+![CircleHD Portal - SSO Settings](../.gitbook/assets/image%20%2819%29.png)
 
-2. Turn On Enable Single Sign On Switch if its not already turned on. It should display SAML SSO Url, Metadata Uri and Test URL. 
+2. Turn On Enable Single Sign On Switch if its not already turned on. It should display SAML SSO Url, Metadata Uri and Test URL. Copy "Single Signon URL" and keep it handy for future steps.
 
 3. Go to Google Admin ****[https://admin.google.com/](https://admin.google.com/) , you will need to use your admin login. 
 
@@ -16,45 +16,43 @@ description: Use steps below to configure Google SSO Integration with CircleHD P
 
 4. Click on "SAML apps", then Click on "+" sign at bottom right, that says "Enable SSO for a SAML Application".
 
-![Step 1 - Enable SSO in Google](../.gitbook/assets/image%20%2820%29.png)
+![Step 1 - Enable SSO in Google](../.gitbook/assets/image%20%2821%29.png)
 
-4. There will be a popup, Click the link "Setup my own custom App" link on the popup below. It will load IDP information Dialog box.
+4. There will be a popup Step 1, Click the link "Setup my own custom App" link below on the popup. It will load IDP information Dialog box, which is Step 2.
 
 ![Step 2 - Enable SSO in Google](../.gitbook/assets/image%20%2818%29.png)
 
 5. Click on Download near certificate. Keep the certificate file handy.
 
-6. Copy the SSO Url and keep it handy for steps in CircleHD portal
+6. Copy the SSO Url and keep it handy for steps required in CircleHD portal.
 
 7. Click on Next, it will load another box to enter application information. Enter Application Name as "CircleHD".
 
 ![Step 3 - Enable SSO in Google](../.gitbook/assets/image%20%2816%29.png)
 
-8. For CircleHD logo, you can download from [https://www.circlehd.com/docs/presskit.html](https://www.circlehd.com/docs/presskit.html)
+8. For CircleHD logo, you can download from [https://www.circlehd.com/docs/presskit.html](https://www.circlehd.com/docs/presskit.html). You can upload "icon-1024x1024.png" to "Upload Logo" option in Google SSO Steps. Click Next 
 
-You can upload file "icon-1024x1024.png" to Step 3 Form in Google SSO Steps. Click Next 
-
- 9. Clicking on Next, will take you to step 4, where you will need to enter ACS URL and related information. ACS URL can be copied from the CircleHD SSO settings page \(shown in \#1 above\). Entity Id will be same as ACS URL. Start URL will be your Enterprise CircleHD platform. Select Signed Response. 
+ 9. For Step 4 of Google SSO, you will need to enter ACS URL and related information. ACS URL can be copied from the CircleHD SSO settings page \(shown in \#1 above\). Entity Id will be same as ACS URL. Start URL will be your Enterprise CircleHD platform URL. Select Signed Response. 
 
 
 
-![Step 4 - Enable SSO in Google](../.gitbook/assets/image%20%2822%29.png)
+![Step 4 - Enable SSO in Google](../.gitbook/assets/image%20%2823%29.png)
 
 10. For Name ID, select Basic Information, Primary Email. 
 
 11. For Name ID Format, select Email. Click Next
 
-12. Step 5 of Google SSO Setup, will be attribute mapping. Add display\_name, Basic Information and First Name. Click Finish. This would complete the setup on Google SSO side.
+12. Step 5 of Google SSO Setup, will be attribute mapping. Add display\_name, Basic Information and First Name. Click Finish. This would complete the setup on Google SSO side. Feel free to add more attributes as needed here which will be sent along with the SSO login.
 
 ![Step 5 - Enable SSO in Google](../.gitbook/assets/image%20%2812%29.png)
 
-13. Go to downloaded certificate file, open it in code editor such as notepad++, Visual Studio, etc. Copy the certificate. 
+13. Go to downloaded certificate file done in \#5, open it in code editor such as notepad++, Visual Studio, etc. Copy the certificate. Please do not open in regular Notepad App.
 
 14. Go back to CircleHD SSO Settings page, same as \#1. Paste the certificate under the "Certificate" text box.
 
-15. Login URL?
+15. Login URL will be the ACS URL from \#9 above.
 
-16. Logout URL?
+16. Logout URL can be left blank for now.
 
 17. Click "Save". Follow Steps below to test the SSO integration.
 
