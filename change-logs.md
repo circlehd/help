@@ -4,11 +4,16 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
-## 10/31/2019 - coming up...
+## 10/31/2019
 
 * SSO Groups Support
+* Secured Default permissions for New Channels 
+* Granular support for ACL Permissions
 * Enhanced Analytics Reports and Filters
-* Real Time Updates for Likes, Favorites
+* Real Time Updates for Likes / Favorites
+* Bug Fixes
+* Comments Feature Optimization
+* Export functionality updated to Excel from CSV
 
 ## 10/21/2019
 
