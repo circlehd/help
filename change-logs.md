@@ -4,6 +4,10 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 11/04/2019
+
+* Added OpenID Google Authentication option on Portal login page
+
 ## 10/31/2019
 
 * SSO Groups Support
