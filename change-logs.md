@@ -4,6 +4,10 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 11/11/2019
+
+* No Updates this week, Happy Veterans Day!
+
 ## 11/04/2019
 
 * Added OpenID Google Authentication option on Portal login page
