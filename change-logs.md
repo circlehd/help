@@ -4,6 +4,15 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 11/18/2019
+
+1. Podcast - Beta Version
+2. Added new line support for Email Messages
+3. Bug Fixes
+4. Embed Support for Video Overlay
+5. Android App Update
+6. iOS App Release - coming this week...
+
 ## 11/11/2019
 
 * No Updates this week, Happy Veterans Day!
