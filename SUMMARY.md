@@ -30,7 +30,7 @@
   * [What is a Private and Public Channel?](channels/what-is-a-private-and-public-channel.md)
   * [How to add Co-Owner to Channel?](channels/untitled.md)
   * [How to add users to a Channel?](channels/how-to-add-users-to-a-channel.md)
-  * [How to secure viewers access to a Channel using SSO Access Control Lists?](channels/how-to-secure-viewers-access-to-a-channel-using-sso-access-control-lists.md)
+  * [How to secure view access to a Channel using SSO Access Control List?](channels/how-to-secure-viewers-access-to-a-channel-using-sso-access-control-lists.md)
 * [PLAYLISTS](playlists/README.md)
   * [What is The Playlist?](playlists/what-is-the-playlist.md)
   * [What is The Difference Between a Channel and a Playlist?](playlists/what-is-the-difference-between-a-channel-and-a-playlist.md)

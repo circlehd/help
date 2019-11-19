@@ -1,4 +1,4 @@
-# How to secure viewers access to a Channel using SSO Access Control Lists?
+# How to secure view access to a Channel using SSO Access Control List?
 
 For Portals using SSO logins, Channels can be secured further by using ACL \(Access Control Lists\). For each user that logs in using SSO, the ACL attributes will need to be sent by the SSO provider. You can follow below steps to secure a channel using ACL.
 
