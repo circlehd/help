@@ -4,6 +4,10 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 11/25/2019
+
+1. iOS App update is available for download now
+
 ## 11/18/2019
 
 1. Podcast - Beta Version
