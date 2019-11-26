@@ -7,6 +7,7 @@ description: This page will contain the history of changes as they were introduc
 ## 11/25/2019
 
 1. iOS App update is available for download now
+2. Android App Update - Bug Fixes
 
 ## 11/18/2019
 
