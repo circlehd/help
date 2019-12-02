@@ -4,6 +4,14 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 12/02/2019
+
+1. Playlists UI Enhancements
+2. Bug Fixes
+3. Playlist Certification Template updated
+4. Quiz Results and Analytics Enhancements
+5. Groups support for Playlist Assignment 
+
 ## 11/25/2019
 
 1. iOS App update is available for download now
