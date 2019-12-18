@@ -4,6 +4,14 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 12/16/2019
+
+* Bug Fixes
+
+## 12/09/2019
+
+* No Updates this week, have a nice week!
+
 ## 12/02/2019
 
 1. Playlists UI Enhancements
