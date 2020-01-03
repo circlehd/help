@@ -13,6 +13,7 @@
   * [How to Open My History List?](getting-started/how-to-open-my-history-list.md)
   * [How to Logout?](getting-started/how-to-logout.md)
 * [VIDEOS](videos/README.md)
+  * [Video Player controls](videos/video-player-controls.md)
   * [How to upload a Video?](videos/how-to-upload-a-video.md)
   * [How to Edit/Delete an Existing Video?](videos/how-to-edit-delete-an-existing-video.md)
   * [How to Post Discussion And Rating?](videos/how-to-post-discussion-and-rating.md)
