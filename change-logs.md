@@ -4,6 +4,24 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 01/27/2020
+
+* Bug fixes
+* New SlideDecks viewer toolbar
+* Merged latest and carousel view on the home page \(TBD\)
+
+## 01/20/2020
+
+* Added history and continue to watch on homepage for quick access to recent views
+* Bug fixes
+* Podcast Episode navigation buttons UX improvement
+* Search show results from upload only channels
+
+## 01/13/2020
+
+* Bug fixes
+* GraphQL Api spec update. Please contact your TAM for more details
+
 ## 01/06/2020
 
 Happy new year everyone! _This is a placeholder for next weeks release._
