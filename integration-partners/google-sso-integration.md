@@ -6,7 +6,7 @@ description: Use steps below to configure Google SSO Integration with CircleHD P
 
 1. First, login to your CircleHD portal with your admin credentials, and navigate to Portal Settings =&gt; Single Sign On \(SSO\), which should be at https://&lt;YOUR DOMAIN&gt;.circlehd.com/admin/sso 
 
-![CircleHD Portal - SSO Settings](../.gitbook/assets/image%20%2821%29.png)
+![CircleHD Portal - SSO Settings](../.gitbook/assets/image%20%2822%29.png)
 
 2. Turn On Enable Single Sign On Switch if its not already turned on. It should display SAML SSO Url, Metadata Uri and Test URL. Copy "Single Signon URL" and keep it handy for future steps.
 
@@ -16,11 +16,11 @@ description: Use steps below to configure Google SSO Integration with CircleHD P
 
 4. Click on "SAML apps", then Click on "+" sign at bottom right, that says "Enable SSO for a SAML Application".
 
-![Step 1 - Enable SSO in Google](../.gitbook/assets/image%20%2823%29.png)
+![Step 1 - Enable SSO in Google](../.gitbook/assets/image%20%2824%29.png)
 
 4. There will be a popup Step 1, Click the link "Setup my own custom App" link below on the popup. It will load IDP information Dialog box, which is Step 2.
 
-![Step 2 - Enable SSO in Google](../.gitbook/assets/image%20%2820%29.png)
+![Step 2 - Enable SSO in Google](../.gitbook/assets/image%20%2821%29.png)
 
 5. Click on Download near certificate. Keep the certificate file handy.
 
@@ -28,7 +28,7 @@ description: Use steps below to configure Google SSO Integration with CircleHD P
 
 7. Click on Next, it will load another box to enter application information. Enter Application Name as "CircleHD".
 
-![Step 3 - Enable SSO in Google](../.gitbook/assets/image%20%2818%29.png)
+![Step 3 - Enable SSO in Google](../.gitbook/assets/image%20%2819%29.png)
 
 8. For CircleHD logo, you can download from [https://www.circlehd.com/docs/presskit.html](https://www.circlehd.com/docs/presskit.html). You can upload "icon-1024x1024.png" to "Upload Logo" option in Google SSO Steps. Click Next 
 
@@ -36,7 +36,7 @@ description: Use steps below to configure Google SSO Integration with CircleHD P
 
 
 
-![Step 4 - Enable SSO in Google](../.gitbook/assets/image%20%2826%29.png)
+![Step 4 - Enable SSO in Google](../.gitbook/assets/image%20%2827%29.png)
 
 10. For Name ID, select Basic Information, Primary Email. 
 
