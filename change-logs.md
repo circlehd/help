@@ -4,6 +4,25 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 02/17/2020
+
+* Search query optimization
+* Bug Fixes
+* External Content Sharing support
+
+## 02/10/2020
+
+* RSS Feed API Key Security Released
+* UI Enhancements for Video Upload
+* Added Video Filesize in UI
+
+## 02/03/2020
+
+* Admin UI updates
+* Code Refactoring for performance
+* Webm upload support enhanced
+* Image Thumbnails fix
+
 ## 01/27/2020
 
 * Bug fixes
