@@ -43,7 +43,7 @@ description: This page will contain the history of changes as they were introduc
 
 ## 01/06/2020
 
-Happy new year everyone! _This is a placeholder for next weeks release._
+Happy new year everyone! 
 
 * Search auto complete
 * Improve wildcard prefix search and ranking
