@@ -4,6 +4,12 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 02/24/2020
+
+* Analytics Bug Fixing
+* Overlay Menu Support for Lower resolution
+* Code Refactoring
+
 ## 02/17/2020
 
 * Search query optimization
