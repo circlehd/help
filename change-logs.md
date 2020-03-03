@@ -4,6 +4,15 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 03/02/2020
+
+* Podcast Manager Beta
+* External Sharing fix
+* Autoplay podcast Fix
+* Analytics Bug Fix
+* UI Fixes
+* Left Menu Support for Lower Resolution
+
 ## 02/24/2020
 
 * Analytics Bug Fixing
