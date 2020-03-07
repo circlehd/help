@@ -4,6 +4,16 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 03/09/2020
+
+* UX improvements 
+* Sharing option added - Copy with thumbnail
+* Autoplay Global setting bug fixed
+* Added filter for logging for current errors
+* Mobile features optimization
+* Playlist Analytics Enhancements
+* Export Excel Update for Analytics
+
 ## 03/02/2020
 
 * Podcast Manager Beta
