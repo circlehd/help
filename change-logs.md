@@ -4,6 +4,12 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 03/16/2020
+
+* Podcast Bug Fixes
+* Slack Configuration Update
+* Mobile App Bug Fixes
+
 ## 03/09/2020
 
 * UX improvements 
