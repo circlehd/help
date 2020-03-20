@@ -4,6 +4,13 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 03/23/2020
+
+* Mobile App Update
+  * Video Recording and upload enabled
+  * Security Enhancement
+* Portal Bug Fixes
+
 ## 03/16/2020
 
 * Podcast Bug Fixes
