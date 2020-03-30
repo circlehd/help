@@ -4,7 +4,13 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
-## 03/23/2020
+## 03/30/2020
+
+* Bug and UI Fixes on Mobile App
+
+**Stay Safe and strong in this Corona Pandemic situation.**
+
+## 03/23/2020 
 
 * Mobile App Update
   * Video Recording and upload enabled
