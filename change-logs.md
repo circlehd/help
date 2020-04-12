@@ -4,13 +4,18 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
-## 04/13/2020 - Coming Up...
+## 04/20/2020 - coming up...
 
-* MobileApp 
+* iOS and Android MobileApp 
   * Push Notifications Enabled
   * UX Updates
 * Search Enhancements including Channels and Playlist in AutoSuggest and Results
-* Podcast UI update
+* Podcast UI
+
+## 04/13/2020
+
+* External Sharing Updates
+* Bug Fixes 
 
 ## 04/06/2020
 
