@@ -18,5 +18,5 @@ For Portals using SSO SAML logins, Video / Media access can be secured by using 
 
 6. Please make sure all required attributes are passed through SSO login, your IT team will be able to help confirm this. 
 
-If any questions or further help needed on this, please email support@circlehd.com
+Please make sure to test this with a sample video and user first, to ensure values are set correctly. If any questions or further help needed on this, please email support@circlehd.com
 
