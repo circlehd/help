@@ -8,9 +8,9 @@ When the total number of media to search is potentially large, full text search 
 
 During Indexing, we make sure to ignore irrelevant stop words \(e.g. "the", “is”, etc. \) which are not meaningful in searching. CircleHD also implements language-specific stemming on the indexed words. For example, the words "fly", "flying", and "flew" will be recorded in the index under "fly", therefore you can focus on content that is more meaningful to you when you most need them.
 
-![Grid View for Search Results](../.gitbook/assets/image%20%2823%29.png)
+![Grid View for Search Results](../.gitbook/assets/image%20%2826%29.png)
 
-![List View for Search Results](../.gitbook/assets/image%20%2820%29.png)
+![List View for Search Results](../.gitbook/assets/image%20%2823%29.png)
 
 In advanced search, if a content piece is a binary file, such as Videos, Audios, Slides, etc. It will gather all words within the binary file and add them as the indexes. 
 
@@ -42,5 +42,5 @@ Creating custom fields in CircleHD is an admin only option, it allows them to cr
 
 5. If custom field values are set for a content piece, then CircleHDs smart search will index those values and you would be able to use this to narrow down or filter results further.
 
-![Using Custom Fields to filter Search Results](../.gitbook/assets/image%20%2816%29.png)
+![Using Custom Fields to filter Search Results](../.gitbook/assets/image%20%2819%29.png)
 

@@ -12,7 +12,7 @@
 
 **4-** Clicking on **Replace** option, loads a popup form where you can upload a new video to override the existing video. 
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 **5- C**lick “**Replace**” once upload is complete. 
 

@@ -4,7 +4,7 @@ For Portals using SSO logins, Channels can be secured further by using ACL \(Acc
 
 1. Click on "Edit" Channel to view Channel properties. 
 
-![Channel Details Page](../.gitbook/assets/image%20%2815%29.png)
+![Channel Details Page](../.gitbook/assets/image%20%2818%29.png)
 
 2. This will load the Channel properties page shown below. Next to "Viewers" label, make sure you have disabled "Everyone" as shown in the picture. This will display a text box to enter criteria for SSO Access Control List. 
 

@@ -21,6 +21,7 @@
   * [What are the supported Video File Formats?](videos/what-are-the-supported-video-file-formats.md)
   * [How to replace an existing video?](videos/how-to-replace-an-existing-video.md)
   * [Embedding Videos](videos/embedding-videos.md)
+  * [How to secure Video / Media access using SSO Access Control List \(ACL\)?](videos/how-to-secure-video-media-access-using-sso-access-control-list-acl.md)
 * [CHANNELS](channels/README.md)
   * [What is Channels List?](channels/how-to-create-a-new-channel.md)
   * [How to View Channel Content?](channels/how-to-view-channel-content.md)
