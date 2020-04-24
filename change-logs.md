@@ -4,12 +4,13 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
-## 04/27/2020 - coming up...
+## 04/27/2020 
 
 * iOS and Android MobileApp 
   * Push Notifications Enabled
   * UX Updates
 * Search Custom Fields support enhanced 
+* Bug Fixes
 
 ## 04/20/2020 
 
