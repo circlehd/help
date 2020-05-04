@@ -4,7 +4,7 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
-## 05/04/2020 - Coming up...
+## 05/04/2020
 
 * Media Embed Enhancement - Supporting Chapters and Resources
 * Bug Fixes
