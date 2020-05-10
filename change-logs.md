@@ -4,6 +4,15 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 05/11/2020
+
+* **NEW** - Import button added for embedding Youtube and 253 other sources inside CircleHD
+* Bug Fixes for image cropping issue, Recorder
+* UI update for Upload page, unified flow, video play icon
+* Support for M4V video formats
+* Increased thumbnail size support to 50mb
+* Optimize error logging
+
 ## 05/04/2020
 
 * Media Embed Enhancement - Supporting Chapters and Resources
