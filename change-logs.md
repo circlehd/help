@@ -11,7 +11,7 @@ description: This page will contain the history of changes as they were introduc
 * UI update for Upload page, unified flow, video play icon
 * Support for M4V video formats
 * Increased thumbnail size support to 50mb
-* Optimize error logging
+* Optimized error logging
 
 ## 05/04/2020
 
