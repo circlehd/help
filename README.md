@@ -1,8 +1,8 @@
 ---
 description: >-
   This site provides help and documentation on CircleHD features. If you need
-  any additional help please visit help desk
-  https://circlehd.freshdesk.com/helpdesk
+  any additional help please email support@circlehd.com or submit request
+  directly at https://www.circlehd.com/contactus/
 ---
 
 # CircleHD Help guide
