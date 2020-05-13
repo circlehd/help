@@ -3,7 +3,7 @@
 To login to the CircleHD Portal, open your assigned portal URL using your web browser
 
 {% hint style="info" %}
-_**\[http://&lt;EnterpriseName&gt;.circlehd.com\]**_ 
+_**\[http://&lt;enterprisename&gt;.circlehd.com\]**_ 
 {% endhint %}
 
 The below login screen will be loaded;
