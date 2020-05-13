@@ -24,7 +24,7 @@ SSO Single sign-on allows you to login using your Organization credentials. Circ
 
 ![](../../.gitbook/assets/help_mngmt_settings4.png)
 
-Please refer to the [Steps to Integrate SSO with CircleHD](https://help.circlehd.com/~/edit/drafts/-LIgm7oCpNa-gvx2b6Lm/management/settings/steps-to-integrate-sso-with-circlehd) page for more details.
+Please refer to the [Steps to Integrate SSO with CircleHD](https://help.circlehd.com/management/settings/steps-to-integrate-sso-with-circlehd) page for more details.
 
 ## SCIM Settings
 
