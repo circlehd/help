@@ -16,7 +16,7 @@ description: Use steps below to configure Google SSO Integration with CircleHD P
 
 4. Click on "SAML apps", then Click on "+" sign at bottom right, that says "Enable SSO for a SAML Application".
 
-![Step 1 - Enable SSO in Google](../.gitbook/assets/image%20%2829%29.png)
+![Step 1 - Enable SSO in Google](../.gitbook/assets/image%20%2830%29.png)
 
 4. There will be a popup Step 1, Click the link "Setup my own custom App" link below on the popup. It will load IDP information Dialog box, which is Step 2.
 
@@ -36,7 +36,7 @@ description: Use steps below to configure Google SSO Integration with CircleHD P
 
 
 
-![Step 4 - Enable SSO in Google](../.gitbook/assets/image%20%2832%29.png)
+![Step 4 - Enable SSO in Google](../.gitbook/assets/image%20%2833%29.png)
 
 10. For Name ID, select Basic Information, Primary Email. 
 

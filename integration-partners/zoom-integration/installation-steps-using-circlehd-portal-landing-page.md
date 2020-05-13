@@ -23,7 +23,7 @@ Admin access on CircleHD portal and Zoom, please follow below steps:
 
 4. Click on "Add to zoom" button which is next Zoom option.
 
-![Zoom Integration option on CircleHD portal](../../.gitbook/assets/image%20%2831%29.png)
+![Zoom Integration option on CircleHD portal](../../.gitbook/assets/image%20%2832%29.png)
 
 5. It will prompt you to login to your Zoom account, please use your admin user account to login to Zoom. Once you login to your Zoom account, it will prompt you to login 
 

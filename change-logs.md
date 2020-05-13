@@ -4,6 +4,15 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 05/18/2020 - coming up...
+
+* Help and Support link updates 
+* Added Tooltips for UX
+* Reset Password security update
+* Notification update for Import 
+* Bug Fixes
+* Playlist Upload UI Update
+
 ## 05/11/2020
 
 * **NEW** - Import button added for embedding Youtube and 253 other sources inside CircleHD

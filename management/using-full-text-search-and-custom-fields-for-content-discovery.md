@@ -8,7 +8,7 @@ When the total number of media to search is potentially large, full text search 
 
 During Indexing, we make sure to ignore irrelevant stop words \(e.g. "the", “is”, etc. \) which are not meaningful in searching. CircleHD also implements language-specific stemming on the indexed words. For example, the words "fly", "flying", and "flew" will be recorded in the index under "fly", therefore you can focus on content that is more meaningful to you when you most need them.
 
-![Grid View for Search Results](../.gitbook/assets/image%20%2828%29.png)
+![Grid View for Search Results](../.gitbook/assets/image%20%2829%29.png)
 
 ![List View for Search Results](../.gitbook/assets/image%20%2825%29.png)
 
