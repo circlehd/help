@@ -10,7 +10,7 @@ Step 1: Click on Upload in the top right or go to My Uploads
 
 Step 2: Click on Import button, this will ask user to enter the import url. If you know the Video / media share url, you can enter that directly or copy the browser url from the external source and paste in URL box. 
 
-![Import Form](../.gitbook/assets/image%20%2833%29.png)
+![Import Form](../.gitbook/assets/image%20%2834%29.png)
 
 Step 3: You can select main channel if required, click Add once done. This will create a regular video, media item within the portal after importing.
 
