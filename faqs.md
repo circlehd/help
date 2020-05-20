@@ -14,7 +14,9 @@ You can refer to our blog article for more details,
 
 ## What is the Video file size limit for CircleHD?
 
-CircleHD supports upto 10gb file upload, this is in order to support the latest formats that need more space but higher quality. If the file size are more than 10Gb, CircleHD recommends user to break them into chunks of 10 Gb files and combine them together as a playlist for user experience. Related Videos and Recommendations feature in CircleHD can also be used to showcase group videos.
+CircleHD supports upto 10gb file upload, this is in order to support the latest formats that need more space but higher quality. If the file size are more than 10Gb, CircleHD recommends user to break them into chunks of 10 Gb files and combine them together as a playlist for user experience. Related Videos and Recommendations feature in CircleHD can also be used to showcase group videos. 
+
+[https://www.circlehd.com/blog/how-to-calculate-video-file-size](https://www.circlehd.com/blog/how-to-calculate-video-file-size)
 
 ## What is the typical file size for different resolution videos?
 
@@ -24,6 +26,11 @@ CircleHD supports upto 10gb file upload, this is in order to support the latest 
 | **1080p \(FHD\)** | 5 Mbps | 20MB | 50 minutes |
 | **720p \(HD\)** | 1 Mbps | 5MB | 3.5 hours |
 | **480p \(SD\)** | 500 Kbps | 2MB | 8 Hours |
+|  |  |  |  |
+
+Please refer to our blog below for more details on calculating video file size.
+
+[https://www.circlehd.com/blog/how-to-calculate-video-file-size](https://www.circlehd.com/blog/how-to-calculate-video-file-size)
 
 ## Does CircleHD support SlideDecks, Documents, PDFs or Articles?
 
