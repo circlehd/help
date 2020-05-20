@@ -350,7 +350,7 @@ Occasionally, interacting with CircleHD SCIM APIs may result in an error instead
 
 ### SCIM Provisioning Limitations
 
-* Users can not be permanently deleted from CircleHD, they can only be deactivated.
+* Users cannot be permanently deleted from CircleHD, they can only be deactivated.
 * Attempts to provision a user with a duplicate email address \(even if the existing user has been previously deactivated in CircleHD\) will fail. The existing user email address must be updated manually in CircleHD to free up the email to be re-provisioned.
 * When creating a new user, if anything in custom profile is invalid, all profile fields will be dropped
 * The SCIM API is rate limited. If your requests are being limited, an HTTP: 429 error will be returned.

@@ -1,4 +1,0 @@
-# TROUBLESHOOTING
-
-coming up...
-

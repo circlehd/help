@@ -86,7 +86,6 @@
 * [SUPPORT](support/README.md)
   * [Contact CircleHD](https://www.circlehd.com/contactus/)
 * [FAQs](faqs.md)
-* [TROUBLESHOOTING](troubleshooting.md)
 * [BILLING](billing.md)
 * [Change Logs](change-logs.md)
 
