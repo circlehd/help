@@ -2,7 +2,7 @@
 
 ## How long does Video take to transcode?
 
-Videos once uploaded go through transcoding to optimize its support across various devices and bandwidths. The transcoding time depends on the size of the video primarily. e.g. a 30 min video could take around 5-10 mins to transcode and a 3 hr video could very well be 1-2 hrs. But this would be only first time and its needed to get the best video user experience.
+Videos once uploaded go through transcoding to optimize its support across various devices and bandwidths. The transcoding time depends on the size of the video primarily. e.g. a 30 min video could take around 5-10 mins to transcode and a 3 hr video could very well be 1-2 hrs. Transcoding is needed only one time during the upload but it does pay off by giving the best end user video experience.
 
 ## Does CircleHD support 4k videos?
 
