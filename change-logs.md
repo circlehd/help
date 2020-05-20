@@ -4,7 +4,7 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
-## 05/18/2020 - coming up...
+## 05/18/2020
 
 * Help and Support link updates 
 * Added Tooltips for UX

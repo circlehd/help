@@ -4,11 +4,11 @@ For Portals using SSO SAML logins, Video / Media access can be secured by using 
 
 1. Click on the Video to go to Video detail page, click on "Edit" Video to view Video properties. 
 
-![Video Detail Page - Edit button](../.gitbook/assets/image%20%2813%29.png)
+![Video Detail Page - Edit button](../.gitbook/assets/image%20%2812%29.png)
 
 2. This will load the Video properties page shown below. Scroll all the way down until you see SSO Access Control List label. This will display a text box to enter criteria for SSO Access Control List as shown below. 
 
-![Video Edit Page - SSO ACL Access](../.gitbook/assets/image%20%2810%29.png)
+![Video Edit Page - SSO ACL Access](../.gitbook/assets/image%20%289%29.png)
 
 3. The format for entering SSO ACL condition is $&lt;attribute name&gt; = &lt;value&gt;. For e.g. $costcenter=34, $organization=product marketing, $department=Finance, etc.
 
