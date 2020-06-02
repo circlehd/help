@@ -70,7 +70,9 @@ The SCIM protocol uses REST concept to define actions that a SCIM Consumer can p
       <td style="text-align:left">Deletes resource at the Service Provider</td>
     </tr>
   </tbody>
-</table>## SCIM Schema
+</table>
+
+## SCIM Schema
 
 SCIM provides a standard schema used to represent a user or a group. This schema is extensible so additional schema objects can be added or existing ones can be modified to provide custom schema support.
 
@@ -124,7 +126,9 @@ _Example_
       <td style="text-align:left">generated above</td>
     </tr>
   </tbody>
-</table>#### Authentication
+</table>
+
+#### Authentication
 
 SCIM Endpoint requires Basic Authentication. The username is SCIM.
 

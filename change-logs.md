@@ -4,6 +4,22 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 06/08/2020 \(coming up...\)
+
+* Mobile Update for Podcast Support
+* HLS Support for Video Uploads
+
+## 06/01/2020
+
+* Bug Fixes
+* Analytics UI update
+
+## 05/25/2020 - Happy Memorial Day!
+
+* Improved Caching experience for Home page
+* Bug Fixes
+* Added M4v support
+
 ## 05/18/2020
 
 * Help and Support link updates 

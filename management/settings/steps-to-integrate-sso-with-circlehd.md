@@ -104,7 +104,9 @@
       </td>
     </tr>
   </tbody>
-</table>**5-** Receive the following information from your IT SSO Admin to continue. This may be contained in the Identity Provider metadata XML File
+</table>
+
+**5-** Receive the following information from your IT SSO Admin to continue. This may be contained in the Identity Provider metadata XML File
 
 * **Login URL \[4\]** \(Identity Provider Single Sign-On URL\) :  TO BE USED FOR REDIRECTING USER WHEN AUTHENTICATION IS REQUIRED.
 * **Logout URL \[5\]:** \(OPTIONAL\) THE DESTINATION FOR THE USER WHEN LOGGING OUT FROM CIRCLEHD.
