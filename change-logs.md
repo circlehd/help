@@ -4,7 +4,7 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
-## 06/08/2020 \(coming up...\)
+## 06/08/2020 
 
 * Mobile Update for Podcast Support
 * HLS Support for Video Uploads
