@@ -6,12 +6,12 @@ description: This page will contain the history of changes as they were introduc
 
 ## 06/15/2020 \(Coming up...\)
 
-* Mobile Update for Podcast Support - WIP
+* Mobile Update for Podcast Support for Android - Phase 2
 * Playlist and Embed support for HLS
 
 ## 06/08/2020 
 
-* Mobile Update for Podcast Support - WIP
+* Mobile Update for Podcast Support - Phase 1
 * HLS Support for Video Uploads
 
 ## 06/01/2020
