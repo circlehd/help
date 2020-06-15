@@ -4,10 +4,14 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
-## 06/15/2020 \(Coming up...\)
+## 06/23/2020 \(coming up...\)
 
 * Mobile Update for Podcast Support for Android - Phase 2
+
+## 06/15/2020
+
 * Playlist and Embed support for HLS
+* Quiz support enhanced with multioptions questions
 
 ## 06/08/2020 
 
