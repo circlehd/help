@@ -4,9 +4,13 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
-## 06/23/2020 \(coming up...\)
+## 06/29/2020 \(coming up...\)
 
 * Mobile Update for Podcast Support for Android - Phase 2
+
+## 06/22/2020
+
+* No updates this week, Have a good week!
 
 ## 06/15/2020
 
