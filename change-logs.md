@@ -4,9 +4,17 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
-## 06/29/2020 \(coming up...\)
+## 07/06/2020 \(coming up...\)
 
-* Mobile Update for Podcast Support for Android - Phase 2
+* Mobile Update for Podcast and Personalization Support for Android - Phase 2
+
+## 06/29/2020 
+
+* Archive option enabled for Media Admins
+* Media Owner transfer feature released
+* Bug Fixes done 
+* Tags UI Updated for Channel Detail Page
+* Podcast API Updates
 
 ## 06/22/2020
 
