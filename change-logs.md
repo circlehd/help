@@ -4,9 +4,13 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
-## 07/06/2020 \(coming up...\)
+## 07/13/2020 \(coming up...\)
 
 * Mobile Update for Podcast and Personalization Support for Android - Phase 2
+
+## 07/06/2020 
+
+* No Updates this week, Happy 4th
 
 ## 06/29/2020 
 
