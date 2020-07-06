@@ -10,7 +10,10 @@ description: This page will contain the history of changes as they were introduc
 
 ## 07/06/2020 
 
-* No Updates this week, Happy 4th
+* Happy 4th
+* Edit / Trim Option enabled for Recording Feature
+* Screen share + Webcam PIP feature released
+* User Management Enhancement - Added Bulk Import option for users
 
 ## 06/29/2020 
 
