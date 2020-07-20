@@ -4,6 +4,10 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 07/20/2020
+
+* Bug Fixes
+
 ## 07/13/2020
 
 * Mobile Update for Podcast and Personalization Support for Android - Phase 2
