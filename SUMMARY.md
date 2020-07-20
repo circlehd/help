@@ -55,6 +55,7 @@
   * [How to Add a Video to Favorite?](favorites/how-to-add-a-video-to-favorite.md)
   * [How to Open My Favorites List?](favorites/how-to-open-my-favorites-list.md)
 * [RECORDING STUDIO](recording-studio/README.md)
+  * [Recording Picture in Picture for effective training](recording-studio/recording-picture-in-picture-for-effective-training.md)
   * [How to Record a New Video?](recording-studio/how-to-edit-videos.md)
 * [MANAGEMENT](management/README.md)
   * [SETTINGS](management/settings/README.md)
