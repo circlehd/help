@@ -4,6 +4,13 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 08/03/2020
+
+* Mobile App Updates
+  * Podcast Bug Fixes
+  * Quiz Support added for Playlists
+* Bug Fixes
+
 ## 07/27/2020
 
 * No Updates this week.
