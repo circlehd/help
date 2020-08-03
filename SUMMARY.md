@@ -58,6 +58,7 @@
   * [Recording Screen + Camera \(Picture in Picture\) for effective training](recording-studio/recording-picture-in-picture-for-effective-training.md)
   * [How to Record a New Video?](recording-studio/how-to-edit-videos.md)
 * [MANAGEMENT](management/README.md)
+  * [How to add users in bulk to the Portal?](management/how-to-add-users-in-bulk-to-the-portal.md)
   * [SETTINGS](management/settings/README.md)
     * [Portal Settings](management/settings/portal-settings.md)
     * [Security Settings](management/settings/security-settings.md)
