@@ -4,6 +4,10 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 08/17/2020
+
+* No Updates this week
+
 ## 08/10/2020
 
 * Added Admin Control for Google Suite SSO Login
