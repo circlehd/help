@@ -8,6 +8,7 @@ description: This page will contain the history of changes as they were introduc
 
 * Channel Management Feature released for Admins
 * Podcast Offline support enabled
+* Sales Pitch - Beta Released
 
 ## 08/17/2020
 
