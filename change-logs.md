@@ -4,6 +4,11 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 08/24/2020
+
+* Channel Management Feature released for Admins
+* Podcast Offline support enabled
+
 ## 08/17/2020
 
 * No Updates this week
