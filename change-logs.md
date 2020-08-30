@@ -4,6 +4,11 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 08/31/2020
+
+* Sales Pitch - Bug Fixes
+* Podcast Analytics Update, Bug Fixes
+
 ## 08/24/2020
 
 * Channel Management Feature released for Admins
