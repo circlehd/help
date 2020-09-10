@@ -6,7 +6,7 @@ description: This page will contain the history of changes as they were introduc
 
 ## 09/07/2020
 
-* No Updates this week, Happy Labour Day!
+* No Updates this week, Have a good Labour Day weekend!
 
 ## 08/31/2020
 
