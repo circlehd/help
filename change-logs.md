@@ -4,9 +4,13 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 09/14/2020
+
+* No Updates this week
+
 ## 09/07/2020
 
-* No Updates this week, Have a good Labour Day weekend!
+* Happy Labour Day!
 
 ## 08/31/2020
 
