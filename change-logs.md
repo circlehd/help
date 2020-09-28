@@ -4,15 +4,19 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 09/28/2020
+
+* Bug Fixes
+* Zoom Security Update
+* Podcast UI Updates 
+
 ## 09/21/2020
 
 * Playlist Enhancement to support Courses
 * Analytics updates
 * Bug Fixes
 * Performance Tuning and Code Refactoring
-* Podcast UI Updates
-* Zoom Integration Updates 
-* Security Updates
+* Security Fixes
 
 coming up...
 
