@@ -4,6 +4,11 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 10/05/2020
+
+* Mobile Build 3.7 Released - Podcast Updates for Favorites and offline features
+* Bug Fixes
+
 ## 09/28/2020
 
 * Bug Fixes
