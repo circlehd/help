@@ -30,7 +30,4 @@ description: Below is the list of supported Browsers and Configurations for Circ
 | Desktop | 1280x720 |  | 1 |
 | Mobile | 360x640 |  | 1 |
 | Mobile | 720x1280 |  | 1 |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
 
