@@ -86,6 +86,7 @@
   * [SCIM](developers-sdk/scim.md)
   * [Developer Documents](http://dev.circlehd.com/)
 * [SUPPORT](support/README.md)
+  * [Support Matrix](support/support-matrix.md)
   * [Contact CircleHD](https://www.circlehd.com/contactus/)
 * [FAQs](faqs.md)
 * [BILLING](billing.md)
