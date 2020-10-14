@@ -1,4 +1,4 @@
-# How to view all lessons assigned to you?
+# How to view all courses assigned to you?
 
 coming up...
 
