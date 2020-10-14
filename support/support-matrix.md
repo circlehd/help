@@ -12,18 +12,18 @@ description: Below is the list of supported Browsers and Configurations for Circ
 | Firefox | 74.\* | 81.\* | 2 |
 | IE | 11 | 11.\* | 2 |
 |  |  |  |  |
-| **Mobile Browser** | \*\*\*\* |  |  |
+| **Mobile Browser** | **Min Version** | **Max Version** | **Tiers** |
 | Chrome | 76.\* | 86.\* | 1 |
 | Safari | 12.\* | 14.\* | 1 |
 |  |  |  |  |
-| **OS** |  |  |  |
+| **OS** | **Min Version** | **Max Version** | **Tiers** |
 | Android - Mobile | 5.1 | 11.\* | 1 |
 | iOS - Mobile | 12.\* | 14.\* | 1 |
 | Windows - Desktop | 7.\* | 10.\* | 1 |
 | iOS - Mac |  | 10.15.7 | 1 |
 | Chrome OS |  | 85.\* | 2 |
 |  |  |  |  |
-| **Screen Resolutions** | \*\*\*\* |  |  |
+| **Screen Resolutions** | **Resolution** |  | **Tiers** |
 | Desktop | 1920x1080 |  | 1 |
 | Desktop | 1366x768 |  | 1 |
 | Desktop | 1440x900 |  | 1 |
