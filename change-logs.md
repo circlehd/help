@@ -4,6 +4,10 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 10/19/2020
+
+* Bug Fixes
+
 ## 10/12/2020
 
 * Mobile App Build Bug Fixes - 3.7 Released
