@@ -4,6 +4,11 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 10/26/2020
+
+* Mobile App - Bug Fixes for Podcast, Courses
+* Web UI Enhancement - Beta version available
+
 ## 10/19/2020
 
 * Bug Fixes
