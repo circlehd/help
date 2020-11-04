@@ -4,6 +4,11 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 11/02/2020
+
+* Document Control Enhancements for PDF, PPT support
+* Bug Fixes for Courses
+
 ## 10/26/2020
 
 * Mobile App - Bug Fixes for Podcast, Courses
