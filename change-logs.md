@@ -4,6 +4,10 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 11/09/2020
+
+* No Updates this week
+
 ## 11/02/2020
 
 * Document Control Enhancements for PDF, PPT support
