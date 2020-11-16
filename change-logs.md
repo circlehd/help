@@ -4,6 +4,12 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 11/16/2020
+
+* Major UI Enhancement release with Upgraded Left Navigation
+* Bug Fixes for Podcast
+* Academy Courses Upgrade option Available 
+
 ## 11/09/2020
 
 * No Updates this week
