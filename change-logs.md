@@ -4,6 +4,10 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 11/23/2020
+
+* No Updates this week.
+
 ## 11/16/2020
 
 * Major UI Enhancement release with Upgraded Left Navigation
