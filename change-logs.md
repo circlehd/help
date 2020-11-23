@@ -6,7 +6,7 @@ description: This page will contain the history of changes as they were introduc
 
 ## 11/23/2020
 
-* No Updates this week.
+* Infrastructure Optimization and performance improvement for backend complete  
 
 ## 11/16/2020
 
