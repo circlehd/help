@@ -2,7 +2,7 @@
 
 To setup your account and profile information, click on **\[Account & Profile\]** option in the drop-down menu.
 
-![](../.gitbook/assets/help_gettingstarted_menu_account_profile.png)
+![](../.gitbook/assets/screenshot-from-2020-11-25-10-50-302.png)
 
 The below screen will be opened:
 

@@ -8,11 +8,11 @@ You can view the channels list in **two ways**:
 
 **1-** By viewing the list in the left vertical navigation:
 
-![](../.gitbook/assets/help_channel_view1.png)
+![](../.gitbook/assets/channel3%20%281%29.png)
 
-**2-** By clicking on “**Explore**” link in the top Header navigation:
+**2-** By clicking on “**Channel Name**” link on the View Video Page:
 
-![](../.gitbook/assets/help_channel_view2.png)
+![](../.gitbook/assets/view-video2.png)
 
 
 

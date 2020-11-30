@@ -8,12 +8,12 @@ _**\[http://&lt;enterprisename&gt;.circlehd.com\]**_
 
 The below login screen will be loaded;
 
-![](../.gitbook/assets/help_gettingstarted_signin.png)
+![](../.gitbook/assets/image%20%2837%29.png)
 
 * Enter the Email **\[1\]** and Password **\[2\]** assigned to you, then click on the "Sign In" button **\[3\]**, you will be automatically redirected to your CircleHD dashboard. 
 * In case you forget the password, you can click on the "**Forget Password?**" link.
 
-![](../.gitbook/assets/help_gettingstarted_dashboard.png)
+![](../.gitbook/assets/dashboard.png)
 
 > That in case you are using SSO, you will need to enter login name only.
 

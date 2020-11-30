@@ -1,14 +1,12 @@
 # How To Edit Channel?
 
-**1-** In the left vertical navigation, click on the required Channel directly to load the Channel Page, or click on the “**Explore**” link in the top header, then tap on the channel name. 
+**1-** To edit the Channel, click on the “**Edit**” icon in the right.
 
-**2-** To edit the Channel, click on the “**Edit**” button in the right.
+![](../.gitbook/assets/channel2.png)
 
-![](../.gitbook/assets/help_channel_edit1.png)
+**2-** The **Edit Channel Form** will be opened as below:
 
-**3-** The **Edit Channel Page** will be opened as below:
+![](../.gitbook/assets/edit-channel2.png)
 
-![](../.gitbook/assets/help_channel_edit2.png)
-
-**4-** Apply the required changes on the channel definition, and then click on the "**Save**" button when finish.
+**3-** Apply the required changes on the channel definition, and then click on the "**Save**" button when finish.
 

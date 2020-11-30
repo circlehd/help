@@ -10,7 +10,9 @@ description: >-
 
 CircleHD supports embedding videos into other systems such as LMS, Wiki, Confluence and SharePoint. To get the embed markup click **sharing** below the video playback. 
 
-![CircleHD Embed Code](../.gitbook/assets/share-embed.png)
+![](../.gitbook/assets/share3.png)
+
+![](../.gitbook/assets/share2.png)
 
   
 The standard HTML Code looks like following.
@@ -35,30 +37,4 @@ Users accessing iframe based embedding from these domains will not be prompted t
 {% hint style="info" %}
 If you have multiple domains, wildcard domain names can be added.
 {% endhint %}
-
-### Auto Playing Embedded Videos
-
-Videos can be played automatically on page load by appending **\#autoplay=true** to the URL, like following.
-
-```text
-https://site.circlehd.com/embed/title#autoplay=true
-```
-
-### Starting Video at specific position
-
-Videos can be played from a specific time by appending **\#t=seconds** to the URL like following. 
-
-```text
-https://site.circlehd.com/embed/title#t=100
-```
-
-In the example above the video will play from 100th second or 1 minute 40 seconds when played. The user may however can drag the progress bar to watch from an earlier position.
-
-{% hint style="info" %}
-Note autoplay and start position can be used together like following
-{% endhint %}
-
-```text
-https://site.circlehd.com/embed/title#autoplay=true&t=100
-```
 

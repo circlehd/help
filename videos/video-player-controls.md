@@ -4,7 +4,7 @@ description: New CircleHD Video Player accessible controls and functionalities
 
 # Video Player controls
 
-![CircleHD Video Player](../.gitbook/assets/screen-shot-2020-01-03-at-2.41.21-pm.png)
+![](../.gitbook/assets/video-conrol.png)
 
 ### Keyboard shortcuts
 

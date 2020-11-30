@@ -4,6 +4,10 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 11/30/2020
+
+* No updates this week, Happy Thanksgiving!
+
 ## 11/23/2020
 
 * Infrastructure Optimization and performance improvement for backend complete  

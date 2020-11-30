@@ -1,18 +1,18 @@
 # How to Edit/Delete an Existing Video?
 
-**1-** Click on “**My Content**” link in the left navigation menu.
+**1-** Click on “**My Uploads**” link in the left navigation menu.
 
-![](../.gitbook/assets/help_videos_edit1.png)
+![](../.gitbook/assets/my-uploads%20%281%29.png)
 
 **2-** It will display a list of all uploaded and recorded videos. 
 
-**3-** Next to the video, there is Edit drop down, click on drop and select “**Edit**” option in the list.
+**3-** Next to the video, click on “**Edit**” option in the list.
 
-![](../.gitbook/assets/help_videos_edit2.png)
+![](../.gitbook/assets/edit-video1.png)
 
 **4-** Clicking on Edit option, takes you to the Edit page where you can update details related to the Video.
 
-![](../.gitbook/assets/help_videos_edit3.png)
+![](../.gitbook/assets/edit-video2.png)
 
 **5-** Please make sure you click “**Save**” once changes are complete. 
 
