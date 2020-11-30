@@ -2,7 +2,7 @@
 description: >-
   This site provides help and documentation on CircleHD features. If you need
   any additional help please email support@circlehd.com or submit request
-  directly at https://www.circlehd.com/help
+  directly at https://www.circlehd.com/help. Thanks!
 ---
 
 # CircleHD Help guide
