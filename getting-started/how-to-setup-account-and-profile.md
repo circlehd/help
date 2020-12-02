@@ -6,7 +6,7 @@ To setup your account and profile information, click on **\[Account & Profile\]*
 
 The below screen will be opened:
 
-![](../.gitbook/assets/help_gettingstarted_account_profile.png)
+![](../.gitbook/assets/account-profile.png)
 
 **1- Email:** your registered email is displayed here **\[1\]**
 
@@ -22,13 +22,13 @@ The below screen will be opened:
 
 **7- Change Password:** click on "**Change Password**" link to change your password **\[7\]**
 
-![](../.gitbook/assets/help_gettingstarted_change_password.png)
+![](../.gitbook/assets/change-password.png)
 
 Enter the new password **\[1\]** and retype it for confirmation **\[2\]**, then click on the "**Change**" button **\[3\]** when finish.
 
 **8- Multi-Factor Authentication:** click on this link to define multi-factor authentication **\[8\]**
 
-![](../.gitbook/assets/help_gettingstarted_mfa.png)
+![](../.gitbook/assets/mfa2.png)
 
 * Scan the displayed QR Code using Google Authenticator or Authy mobile application. 
 * Verify your account by entering the code generated in the app in the "**Verify Code**" field.

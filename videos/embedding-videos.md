@@ -32,7 +32,9 @@ By default users must be logged in to watch on the embed. If you have a trusted 
 
 Users accessing iframe based embedding from these domains will not be prompted to login. However, the username will not show up in analytics if they have not previously logged into CircleHD
 
-![](../.gitbook/assets/secure-embed.png)
+![](../.gitbook/assets/portal-settings.png)
+
+![](../.gitbook/assets/whitelisting-domain.png)
 
 {% hint style="info" %}
 If you have multiple domains, wildcard domain names can be added.
