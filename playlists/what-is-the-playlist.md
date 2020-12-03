@@ -6,13 +6,15 @@ This gives user an option to create a user friendly sequential series videos gro
 
 To view your created and accessible playlists, click on the “**Playlists**” link in the left vertical menu.
 
-![](../.gitbook/assets/help_playlist_intro1.png)
+![](../.gitbook/assets/playlists.png)
 
 This will load all playlists created by you under “**Your Playlists**”, and the Playlists that are shared and visible by other CircleHD Portal users under “**Public Playlists**”.
 
-![](../.gitbook/assets/help_playlist_intro2.png)
+![](../.gitbook/assets/playlists2.png)
 
 You can click on the individual Playlist that you need to view. Below is an example of the Playlist detail page. It will list the videos added in the playlist in the right.
 
-![](../.gitbook/assets/help_playlist_intro3.png)
+![](../.gitbook/assets/playlists3.png)
+
+Apart from videos a quiz can be created in the Playlist. A quiz is a set of optional questions. Users can attempt the quiz and check their score based on the correct answers.
 
