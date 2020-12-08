@@ -4,6 +4,10 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 12/07/2020
+
+* No Updates
+
 ## 11/30/2020
 
 * No updates this week, Happy Thanksgiving!
