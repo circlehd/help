@@ -17,3 +17,17 @@ The below login screen will be loaded;
 
 > That in case you are using SSO, you will need to enter login name only.
 
+### **Mobile**
+
+**1**- Open the circlehd app, **Welcome Page** appears. Enter your email here.
+
+![](../.gitbook/assets/screenshot_2020-12-07-13-27-23-747.jpeg)
+
+**2-** It takes user on **Login Page.** Enter your credentials here.
+
+![](../.gitbook/assets/screenshot_2020-12-07-17-10-11-906.jpeg)
+
+**3-** After successful sign in Dashboard appears.
+
+
+

@@ -24,3 +24,19 @@
 
 ![](../.gitbook/assets/my-uploads%20%281%29.png)
 
+### **Mobile**
+
+**1**- Touch on upload icon on the Home Page.
+
+![](../.gitbook/assets/mobile-home-upload.jpeg)
+
+**2-** Now there are two options are availble to upload the file.
+
+**a- Record a Video -** It starts the camera of the device. Now user can record the activity performed on the device and it can be uploaded as a media in the user's account.
+
+**b- Choose from Library -** Alternatively user can select and upload the file which is already saved in the device.
+
+![](../.gitbook/assets/screenshot_2020-12-07-19-19-26-357.jpeg)
+
+
+

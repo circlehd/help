@@ -26,3 +26,11 @@ description: New CircleHD Video Player accessible controls and functionalities
 
 Picture-in-Picture \(PiP\) allows you to watch videos in a floating window \(always on top of other windows\) so you can keep an eye on what you’re watching while interacting with other sites, or application. This functionality is currently supported on Google Chrome, Safari and Microsoft Edge.
 
+### Mobile
+
+![](../.gitbook/assets/screenshot_2020-12-07-13-28-53-554.jpeg)
+
+**Full Screen Video :**
+
+![](../.gitbook/assets/screenshot_2020-12-07-19-13-11-022.jpeg)
+

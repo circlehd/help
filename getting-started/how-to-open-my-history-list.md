@@ -10,3 +10,13 @@ User can open videos history by clicking on the "**Favorites**" option in the Le
 
 at the right side the last visit time is appeared.
 
+### Mobile
+
+1- Touch **My** option ****at the **Bottom Horizontal** menu.
+
+![](../.gitbook/assets/mobile-my.jpeg)
+
+**2-** Touch option **'Watch History'** to open History list.
+
+![](../.gitbook/assets/mobile-watch-history.jpeg)
+

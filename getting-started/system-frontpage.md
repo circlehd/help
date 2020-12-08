@@ -19,3 +19,20 @@ Through this screen you can do the following:
 11. **Upload:** click on this button to upload a video.
 12. **Invite Team:** you can use this option to invite other company employees from your team / company to join your CircleHD portal.
 
+### Mobile
+
+After login to the portal, the below **FrontPage** will appear:
+
+![](../.gitbook/assets/screenshot_2020-12-07-13-28-29-159.jpeg)
+
+1. **Home -** Default page is **Home** page.
+2. **View Video** - Open a video and it opens **View** page where video is played.
+3. **Search -** Search option helps to find a video by name or description.
+4. **Continue Watching** - It is a home page section where frequently watched videos are listed. 
+5. **Channels** - It opens the **Channels** Module where videos are categorized by Channels.
+6. **Playlists** - It opens the Playlists Page where Assigned Playlists or Library Playlists are visible.
+7. **Podcast** - It opens the Podcast Module where all podcast shows and episodes are listed.
+8. **My -** Here user is able to access the  Account details, Favorites, My Uploads, Watch History and Settings.
+
+
+

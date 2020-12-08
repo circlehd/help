@@ -8,5 +8,15 @@ If you click on search icon without adding any search term, Advanced search opti
 
 ![](../.gitbook/assets/recordings2.png)
 
+### Mobile
+
+**1**- Touch the search icon to open text box to write a video keyword.
+
+![](../.gitbook/assets/mobile-homepage-search.jpeg)
+
+**2**- Write the keyword in the text box and it will list the videos with the matched text.
+
+![](../.gitbook/assets/screenshot_2020-12-07-18-44-02-619.jpeg)
+
 
 

@@ -35,6 +35,7 @@
   * [How to add Co-Owner to Channel?](channels/untitled.md)
   * [How to secure view access to a Channel using SSO Access Control List?](channels/how-to-secure-viewers-access-to-a-channel-using-sso-access-control-lists.md)
 * [PLAYLISTS](playlists/README.md)
+  * [How to see the quiz statistics](playlists/how-to-see-the-quiz-statistics.md)
   * [What is The Playlist?](playlists/what-is-the-playlist.md)
   * [How to Create a New Playlist?](playlists/how-to-create-a-new-playlist.md)
   * [How to create a quiz in a playlist](playlists/how-to-create-quiz-in-aplaylist.md)
