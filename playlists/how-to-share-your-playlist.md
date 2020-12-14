@@ -20,3 +20,23 @@
 
 **5-** Now assigned users is able to see your playlist.
 
+### Mobile
+
+**1-** Open the Playlist from the bottom horizontal menu.
+
+![](../.gitbook/assets/playlists.jpeg)
+
+**2-** There are three tabs visible. Assigned, Library and My
+
+Assigned shows the list of all the Playlists which are assigned to the logged in user. Library shows the list of playlists which are global and My shows the list of playlists which are created by logged in user.
+
+![](../.gitbook/assets/screenshot_2020-12-09-18-15-40-693.jpeg)
+
+**3-** Once user opens a playlist, there is a share icon at top right of the screen. User can share playlist url on different social platforms using the icon.
+
+![](../.gitbook/assets/playlist-view.jpeg)
+
+Externaly Shared Playlist's Content can be seen by users without logging into the application. If playlist is not externally shared then user needs to log into the application to see the content.
+
+\*\*\*\*
+

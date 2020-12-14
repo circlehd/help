@@ -14,5 +14,21 @@ You can view the channels list in **two ways**:
 
 ![](../.gitbook/assets/view-video2.png)
 
+### Mobile
+
+**1-** Touch on the Channels option at Bottom Horizontal Menu.
+
+![](../.gitbook/assets/channels.jpeg)
+
+**2-** It lists all priviliged channels.
+
+![](../.gitbook/assets/channels-list.jpeg)
+
+**3-** To see the videos of a channel, user needs to touch the channel to view its content.
+
+![](../.gitbook/assets/screenshot_2020-12-09-18-19-45-619.jpeg)
+
+
+
 
 
