@@ -4,6 +4,11 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 12/14/2020
+
+* Podcast Manager Bug Fixes
+* News API Updates Published
+
 ## 12/07/2020
 
 * No Updates
