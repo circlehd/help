@@ -2,11 +2,15 @@
 
 If an enterprise needs to add hundreds or more users quickly, manually adding them is not a scalable option. To make this easier for enterprises, CircleHD portal allows adding users in bulk using a CSV file format. This can be done by Admins only. 
 
- 1. Go to top right, Admin options. Click on User Management. On User Management screen, click on Bulk Users link.
+ 1. To import multiple users, Bulk Import option is available.
 
-![Importing users in Bulk](../.gitbook/assets/screen-shot-2020-08-03-at-3.08.51-pm.png)
+![](../.gitbook/assets/bulk-import.png)
 
 2. You can click on the "template" link to download the csv format. Once downloaded, create a list of all users in this csv format, by exporting users from your existing employee management system.
+
+![](../.gitbook/assets/bulk-importcsv.png)
+
+
 
 3. Please refer to table below to understand options in the CSV file.
 
@@ -31,6 +35,11 @@ If an enterprise needs to add hundreds or more users quickly, manually adding th
         <p>delete - to delete an existing user</p>
         <p>disable - to disable / deactivate existing user</p>
       </td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">password</td>
+      <td style="text-align:left">Password</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>

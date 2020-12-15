@@ -1,41 +1,58 @@
 # How to Manage Portal Users?
 
-You can manage portal users easily by inviting new users, assign the proper permissions, or delete their accounts permanently. 
+**1-** Click on the Portal Settings on the top right menu.
 
-To open user management page, click on the \[User Management\] option in the drop-down menu.
+![](../.gitbook/assets/portal-settings1.png)
 
-![](../.gitbook/assets/help_mngmt_users_menu.png)
+**2-** To open **User Manager,** click on the **User Management** in the left side bar.
 
-The below user management page will be opened:
+![](../.gitbook/assets/user-management.png)
 
-![](../.gitbook/assets/help_mngmt_users1.png)
+Here you can manage portal users easily by inviting new users, assign the proper permissions, or delete their accounts permanently. 
 
-In the users list you can see for each user the username, email address, department, status, signup date, and total uploaded videos. 
+**3-** Click on the **Invite Users** button to invite more users.
 
-**1-** To invite new users to your portal, click on the "**Invite Users**" button **\[1\]** 
+![](../.gitbook/assets/invite-users0.png)
 
-**2-** To download the users information as CSV file, click on the "**Download as CSV**" button **\[2\]** 
+It opens invite users form where admin can invite users to join portal.
 
-**3-** Change the value in the text box **\[3\]** to control how many users are listed per page. 
+![](../.gitbook/assets/invite-users.png)
 
-**4-** Total count of the portal users are displayed here **\[4\]** 
+**Field 'who would you like to invite'** - Here admin can invite one user or multiple users.
 
-**5-** Use the search text box **\[5\]** to search and filter the users list 
+**Message** - Admin adds a message which is sent with the email to the users.
 
-**6-** Click on "**Previous**" and "**Next**" buttons **\[6\]** to navigate through the users list pages 
+**Invite as admin** - Admin can invite users as a regular user or admin.
 
-**7-** Click on the "**Permissions**" button **\[7\]** to define the user's permissions:
+**4-** Once admin clicks on Invite button, an email is sent to the users with the message.
 
-![](../.gitbook/assets/help_mngmt_users2.png)
+![](../.gitbook/assets/invitation-email.png)
 
-* **Create Channel:** to enable the user define new channels in the portal. 
-* **Create Course:** to enable the user define new courses in the portal. 
-* **Create Event:** to enable the user define new events in the portal. 
-* **Admin:** define the user as system administrator
+Accepting the invitation takes user on 'set password' page. Once user sets the password, an account is created and user can always log into the account using these credentials.
 
-**8-** Click on the "**Delete**" button **\[8\]** to delete the user's account. 
+Registered users are listed on the User Management Page.
 
-**9-** Click on the "**username**" link **\[9\]** to open the user profile page:
+**5- Export as CSV** option is available to export all the users in a csv file.
 
-![](../.gitbook/assets/help_mngmt_users3.png)
+![](../.gitbook/assets/export-as-csv.png)
+
+
+
+**6-** Admin can filter users by their status i.e. Active, Disabled, Admin & Manager or search users by their email or name.
+
+**7-** Admin can edit the "**Permissions**" of the users using edit button.
+
+![](../.gitbook/assets/user-permissions.png)
+
+
+
+![](../.gitbook/assets/edit-user.png)
+
+
+
+**8-** Click on the "**Delete**" button to delete the user's account. 
+
+**9-** Click on the "**username**" link **** to open the user profile page.
+
+![](../.gitbook/assets/user-profile.png)
 
