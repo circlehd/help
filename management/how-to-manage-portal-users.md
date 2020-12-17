@@ -50,9 +50,21 @@ Registered users are listed on the User Management Page.
 
 
 
-**8-** Click on the "**Delete**" button to delete the user's account. 
+**8a-** Select one user or multiple users and click on the "**Delete**" button to delete the user's account. This action cannot be reverted.
 
-**9-** Click on the "**username**" link **** to open the user profile page.
+![](../.gitbook/assets/delete-disable-enable.png)
+
+**8b-** If you want to restrict login access of a user and you do not want to delete the user, you can select one user or multiple users and simply disable them.
+
+![](../.gitbook/assets/delete-disable-enable%20%281%29.png)
+
+**8c-** Disabled user\(s\) can be re-enabled by using Enable option.
+
+![](../.gitbook/assets/enable-user.png)
+
+![](../.gitbook/assets/enable-user2.png)
+
+**9-** If you want to see profile of a user, click on the "**username**" link **** to open the user profile page.
 
 ![](../.gitbook/assets/user-profile.png)
 
