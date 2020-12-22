@@ -89,7 +89,7 @@
   * [SSO Key Rotation](management/sso-key-rotation.md)
 * [MOBILE](mobile.md)
 * [DEVELOPERS SDK](developers-sdk/README.md)
-  * [SCIM](developers-sdk/scim.md)
+  * [SCIM Integration](developers-sdk/scim.md)
   * [Developer Documents](http://dev.circlehd.com/)
 * [SUPPORT](support/README.md)
   * [Support Matrix](support/support-matrix.md)

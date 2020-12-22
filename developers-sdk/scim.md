@@ -2,7 +2,7 @@
 description: This page is a guidance for how to enable SCIM integration with CircleHD
 ---
 
-# SCIM
+# SCIM Integration
 
 ## Overview
 
