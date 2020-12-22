@@ -4,6 +4,10 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 12/21/2020
+
+* No Updates this week, Merry Christmas and happy Holidays! 
+
 ## 12/14/2020
 
 * Podcast Manager Bug Fixes
