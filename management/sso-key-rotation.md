@@ -52,5 +52,5 @@ Navigate to yoursite.circlehd.com in a different browser window to make sure you
 
 Contact CircleHD. Email support@circlehd.com
 
-![](../.gitbook/assets/screen-shot-2018-08-20-at-1.31.57-pm.png)
+![](../.gitbook/assets/sso%20%281%29.png)
 

@@ -4,7 +4,7 @@
 
 **2-** Turn On Enable Single Sign On Switch **\[1\]**.
 
-![](../../.gitbook/assets/sso.png)
+![](../../.gitbook/assets/sso%20%282%29.png)
 
 **3-** Provide the Metadata/Audience XML **\[2\]** \(https://&lt;YOUR DOMAIN&gt;.circlehd.com/auth/saml2/metadata.xml\) to your IT SSO Admin. The document contains information about Audience system that allows your instance to verify that it is the intended recipient of a SAML response and generate corresponding certificate to be used by CircleHD. 
 
@@ -22,7 +22,8 @@
     <tr>
       <td style="text-align:left">2</td>
       <td style="text-align:left">App logo</td>
-      <td style="text-align:left">DOWNLOAD FROM HTTPS://STATIC.CIRCLEHD.COM/PUBLIC/STATIC/IMG/CIRCLEHD-LOGO.ZIP</td>
+      <td style="text-align:left">DOWNLOAD FROM <a href="https://static.circlehd.com/img/circlehd-presskit.zip">https://static.circlehd.com/img/circlehd-presskit.zip</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">3</td>
