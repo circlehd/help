@@ -1,6 +1,6 @@
-# MOBILE
+# MOBILE APPS
 
-**Enjoy Native CircleHD Portal experience On Your Android or Apple smartphones by downloading CircleHD Mobile App.**
+**Enjoy Native CircleHD Portal experience On Your Android or Apple smartphones by downloading CircleHD Mobile App**
 
 [Apple Store](https://itunes.apple.com/us/app/circlehd-mobile/id1360878094?mt=8) 
 

@@ -1,4 +1,4 @@
-# PITCH / CERTIFY
+# CERTIFY
 
 Help documentation coming soon...
 
