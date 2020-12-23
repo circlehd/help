@@ -6,7 +6,7 @@ description: Use steps below to configure Google SSO Integration with CircleHD P
 
 1. First, login to your CircleHD portal with your admin credentials, and navigate to Portal Settings =&gt; Single Sign On \(SSO\), which should be at https://&lt;YOUR DOMAIN&gt;.circlehd.com/admin/sso 
 
-![CircleHD Portal - SSO Settings](../../.gitbook/assets/image%20%2826%29.png)
+![](../../.gitbook/assets/sso%20%281%29.png)
 
 2. Turn On Enable Single Sign On Switch if its not already turned on. It should display SAML SSO Url, Metadata Uri and Test URL. Copy "Single Signon URL" and keep it handy for future steps.
 
