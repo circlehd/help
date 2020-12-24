@@ -93,10 +93,11 @@ The SCIM API is RESTful and the endpoint URLs are not similar to other CircleHD 
 
 ### How to enable SCIM for your organization?
 
-The SCIM url can only be retrieved by an admin user in CircleHD. From the top right menu, navigate to Portal Settings, Select SCIM under Security Settings.  
+The SCIM url can only be retrieved by an admin user in CircleHD. From the top right menu, navigate to Portal Settings, Select SCIM under Integrations.
 
+![](../../.gitbook/assets/integrations-scim.png)
 
-![](https://lh4.googleusercontent.com/4zfsBOg7OgX0BGdw3dx34j4-DcA9M77zJP-tLbYFJc6jrC3VIHZR3q8BjWmp2Afvb5HdAD-qal6PR9DG5kYY7IjanavI9pSpRiYaQNjQm6lIRpQR-DwPRYlX8dR64C7ztN0IeJs)
+![](../../.gitbook/assets/integrations-scim2.png)
 
 Enable SCIM by turning the switch ON. Click save to generate the SCIM Password.  
   
