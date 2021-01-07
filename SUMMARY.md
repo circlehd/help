@@ -97,4 +97,9 @@
 * [FAQs](faqs.md)
 * [BILLING](billing.md)
 * [Change Logs](change-logs.md)
+* [PODCAST](podcast/README.md)
+  * [How to use Podcast?](podcast/how-to-use-podcast.md)
+  * [How to Create / Update / Delete a Show?](podcast/how-to-create-update-delete-a-show.md)
+  * [How to Create / Update / Delete Episodes?](podcast/how-to-create-update-delete-episodes.md)
+  * [How to see Podcast Reports?](podcast/how-to-see-podcast-reports.md)
 
