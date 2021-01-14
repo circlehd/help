@@ -4,6 +4,10 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 01/11/2021
+
+* No updates this week
+
 ## 01/04/2021
 
 * News UX and API Integration In progress
