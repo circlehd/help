@@ -4,6 +4,11 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 01/25/2021
+
+* Bug Fixes for Courses, Podcast
+* Infrastructure Optimization
+
 ## 01/18/2021
 
 * No Updates this week.
