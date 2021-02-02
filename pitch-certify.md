@@ -2,7 +2,7 @@
 description: coming up...
 ---
 
-# Coach
+# COACH
 
 Help documentation coming soon...
 
