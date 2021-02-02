@@ -65,7 +65,7 @@
   * [How to view Stats for Courses?](lessons/how-to-view-lessons-stats.md)
   * [How to view course assigned to you?](lessons/your-lessons.md)
   * [How to view all courses assigned to you?](lessons/how-to-view-all-lessons-assigned-to-you.md)
-* [CERTIFY](pitch-certify.md)
+* [Coach](pitch-certify.md)
 * [MANAGEMENT](management/README.md)
   * [DEVELOPERS SDK](management/developers-sdk/README.md)
     * [Developer Documents](http://dev.circlehd.com/)
