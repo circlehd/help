@@ -4,6 +4,14 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 2/22/2021
+
+* Performance Updates on Video Transcoding
+
+## 2/15/2021
+
+* No Updates this week
+
 ## 2/8/2021
 
 * Bug Fixes
