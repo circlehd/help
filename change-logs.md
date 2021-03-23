@@ -4,6 +4,18 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 3/22/2021
+
+* No Updates this week
+
+## 3/15/2021
+
+* No Updates this week
+
+## 3/8/2021
+
+* Infrastructure Maintenance completed
+
 ## 3/1/2021
 
 * No Updates this week
