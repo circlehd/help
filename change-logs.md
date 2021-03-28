@@ -4,6 +4,10 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 3/29/2021
+
+* No Updates this week
+
 ## 3/22/2021
 
 * No Updates this week
