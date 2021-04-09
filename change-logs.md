@@ -4,6 +4,11 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 4/12/2021
+
+* System Maintenance and security updates completed
+* Bug Fixes
+
 ## 4/5/2021
 
 * No Updates this week
