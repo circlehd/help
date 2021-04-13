@@ -11,7 +11,7 @@ Introduction
 
 * [Getting started](getting-started/)
 * [Submit a Support ticket](https://www.circlehd.com/help)
-* Video Platform
+* [Video Platform](https://app.gitbook.com/@circlehd/s/guide/~/drafts/-MYBXxgXE0RsAKD4O0tk/videos/how-to-upload-a-video)
   * [Recording, Uploading Videos, Media](https://circlehd.circlehd.com/playlist/CircleHD-User-Help-Videos-RsxZoHdqw)
   * [Managing Videos using Channels](https://circlehd.circlehd.com/playlist/CircleHD-User-Help-Channels-vKcX9fbK0)
   * [Managing Videos using Playlists](https://circlehd.circlehd.com/playlist/CircleHD-User-Help-Playlists-jWV6B0Tb3/4) 
