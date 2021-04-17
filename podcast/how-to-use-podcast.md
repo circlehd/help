@@ -64,7 +64,26 @@ When you click on the suggestion, it takes you on the episodes list page where y
 
 While searching a podcast episode or a show, you can see podcast icon with the suggestions to differentiate between other media and podcast.
 
+**7- Copy Link**  
+To copy show link, click on 3 dots then tool tip to copy link with icon will get shown and link will copied to clipboard. 
+
 Text
+
+When paste copied link on another tab or another browser then show with episodes associated with it will get listed.
+
+
+
+![Copy link](../.gitbook/assets/copy-link.png)
+
+**8- Add Comments for each episode**
+
+To add comments for each episode availavle on podcast main page, please either click on episode name or on player option.
+
+![](../.gitbook/assets/comment1.png)
+
+When click either on episode name or player icon then selected episode with details like, Track, Host, Published, Duration along with comment box will get shown.
+
+![Episode details and comments](../.gitbook/assets/comments2.png)
 
 
 
