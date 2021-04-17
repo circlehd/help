@@ -1,6 +1,6 @@
 # How to use Podcast?
 
-**1-** Click on Podcast option in the left vertical menu.
+**1-** Click on Podcast option in the left vertical menu. 
 
 ![](../.gitbook/assets/podcast1.png)
 
@@ -63,6 +63,10 @@ Episode suggestions will start appearing once you start typing in the searchbox.
 When you click on the suggestion, it takes you on the episodes list page where you can play the desired episode.
 
 While searching a podcast episode or a show, you can see podcast icon with the suggestions to differentiate between other media and podcast.
+
+Text
+
+
 
 
 
