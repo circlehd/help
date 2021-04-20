@@ -1,4 +1,4 @@
-# How to use Podcast?
+# How to navigate and use Podcast?
 
 **1-** Click on Podcast option in the left vertical menu. 
 

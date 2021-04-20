@@ -1,4 +1,4 @@
-# How to see Podcast Reports?
+# How to view Podcast usage and analytics?
 
 **1-** To open Podcast Manager page, click on the \[**Podcast manager**\] option in the top right drop-down menu.
 
