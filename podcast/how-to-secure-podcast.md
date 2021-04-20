@@ -2,8 +2,8 @@
 
 **ACL based Security \(SSO\)**
 
-**i\) Add SSO ACL**  
-Adding an ACL \(access control lists\) will allow users to be added based on their SSO attributes stored by the enterprise SSO. Only privileged user will be able to browse the show.
+**i\) Using Email or SSO ACL**  
+Adding an ACL \(access control lists\) will allow users to be added based on their SSO attributes stored by the enterprise SSO. Only privileged user will be able to browse the show. You can also secure by using Email option in the drop down to secure a Podcast Show.
 
 ![](../.gitbook/assets/sso1.png)
 

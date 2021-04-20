@@ -1,6 +1,6 @@
-# How to navigate and use Podcast?
+# How to navigate to a Podcast?
 
-**1-** Click on Podcast option in the left vertical menu. 
+**1-** Click on Podcast option in the left vertical menu. This is in case you are using other features of the Video platform. If you are using just Enterprise Podcast Feature, then you will see Podcast Home page as default Home Page.  
 
 ![](../.gitbook/assets/podcast1.png)
 

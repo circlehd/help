@@ -32,7 +32,7 @@ User can see the statistics of individual Podcast shows by using the Shows filte
 
 SImilarly based on date filter each podcast's detail data can be analyzed here.
 
-User can download the reports by clicking on the top right "Export" option.
+User can download the report by clicking on the top right "Export" option.
 
 ![](../.gitbook/assets/podcast-report.png)
 

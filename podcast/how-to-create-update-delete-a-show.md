@@ -1,4 +1,4 @@
-# How to Create / Update / Delete a Show?
+# How to Create / Update / Delete a Podcast Show?
 
 **1-** To open Podcast Manager page, click on top right menu, select \[**Podcast manager**\] option in the drop-down menu.
 
@@ -27,7 +27,7 @@ Adding an ACL \(access control lists\) will allow users to be added based on the
 
 ![](../.gitbook/assets/podcast8.png)
 
-Adding Department will give permissions to the users of the department to watch a show. Other attributes like 'Job Title' , Manager, Cost Center, etc. will provide permission of the show to the users accordingly.
+Adding Department will give permissions to the users of the department to watch a show. Other attributes like Email, 'Job Title' , Manager, Cost Center, etc. will provide permission of the show to the users accordingly.
 
 ii\) **Delete SSO ACL**  
 User can delete unwanted ACL using delete icon.

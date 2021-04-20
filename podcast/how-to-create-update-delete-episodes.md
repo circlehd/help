@@ -1,4 +1,4 @@
-# How to Create / Update / Delete Episodes?
+# How to Create / Update / Delete Podcast  Episodes?
 
 Episodes are created under or part of shows. To create an episode, it is necessary to create a show first or you can create an episode under an existing show.
 
