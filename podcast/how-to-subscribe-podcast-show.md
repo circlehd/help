@@ -1,3 +1,10 @@
+---
+description: >-
+  User can subscribe and unsubscribe to a Podcast Show on the Show Detail page.
+  Once Subscribed user will receive notifications in email or mobile alerts if
+  any changes on new episodes added to a show.
+---
+
 # How to subscribe to a Podcast Show?
 
 
