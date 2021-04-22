@@ -67,8 +67,6 @@ While searching a podcast episode or a show, you can see podcast icon with the s
 **7- Copy Link**  
 To copy show link, click on 3 dots then tool tip to copy link with icon will get shown and link will copied to clipboard. 
 
-Text
-
 When paste copied link on another tab or another browser then show with episodes associated with it will get listed.
 
 

@@ -7,21 +7,19 @@ description: >-
 
 # How to subscribe to a Podcast Show?
 
-1- Click on Podcast option in the left vertical menu.
+**1-** Click on Podcast option in the left vertical menu.
 
 ![](../.gitbook/assets/p1.png)
 
-
-
-2- It opens Podcast page. The top section displays all shows.
+**2-** It opens Podcast page. The top section displays all shows.
 
 ![](../.gitbook/assets/p1%20%282%29.png)
 
-3- Click on a show to view the Show detail page with all episodes.
+**3-** Click on a show to view the Show detail page with all episodes.
 
 ![](../.gitbook/assets/p1%20%281%29.png)
 
-4- Click on Subscribe button, user will get subscribed to the Show.
+**4-** Click on Subscribe button, user will get subscribed to the Show.
 
 ![](../.gitbook/assets/subscribe.png)
 
