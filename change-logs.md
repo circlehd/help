@@ -7,6 +7,7 @@ description: This page will contain the history of changes as they were introduc
 ## 5/3/2021
 
 * Podcast Performance Update and Bug Fixes
+* Mobile App - CastDesk UI Updates and Bug Fixes
 
 ## 4/26/2021
 
