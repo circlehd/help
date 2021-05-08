@@ -8,14 +8,14 @@ description: >-
 
 | **Desktop** | **Min Version** | **Max Version** | **Tiers** |
 | :--- | :--- | :--- | :--- |
-| Chrome | 76.\* | 86.\* | 1 |
-| Edge | 81.\* | 86.\* | 1 |
+| Chrome | 80.\* | 90.\* | 1 |
+| Edge | 83.\* | 90.\* | 1 |
 | Safari | 12.\* | 14.\* | 2 |
-| Firefox | 74.\* | 81.\* | 2 |
+| Firefox | 79.\* | 87.\* | 2 |
 | IE | 11 | 11.\* | 2 |
 |  |  |  |  |
 | **Mobile Browser** | **Min Version** | **Max Version** | **Tiers** |
-| Chrome | 76.\* | 86.\* | 1 |
+| Chrome | 80.\* | 90.\* | 1 |
 | Safari | 12.\* | 14.\* | 1 |
 |  |  |  |  |
 | **OS** | **Min Version** | **Max Version** | **Tiers** |
