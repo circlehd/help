@@ -4,6 +4,10 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 5/17/2021
+
+* Channel Management, User Management Sorting Bug Fixes
+
 ## 5/10/2021
 
 * UI Bug Fixes
