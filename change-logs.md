@@ -4,6 +4,12 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 5/24/2021
+
+* Podcasting Mobile App Updates for Android and iOS
+  * Speed Control Added
+  * Performance improvement
+
 ## 5/17/2021
 
 * Channel Management, User Management Sorting Bug Fixes
