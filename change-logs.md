@@ -4,6 +4,10 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 5/31/2021
+
+* No Updates this week, Happy Memorial Day!
+
 ## 5/24/2021
 
 * Podcasting Mobile App Updates for Android and iOS
