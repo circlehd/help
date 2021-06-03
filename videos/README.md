@@ -1,8 +1,8 @@
-# VIDEOS
+# MANAGING VIDEO CONTENT
 
 
 
-Help Videos - [Recording, Uploading Videos, Media](https://circlehd.circlehd.com/playlist/CircleHD-User-Help-Videos-RsxZoHdqw)
+Check out our Help Videos heres - [Recording, Uploading Videos, Media](https://circlehd.circlehd.com/playlist/CircleHD-User-Help-Videos-RsxZoHdqw)
 
 
 

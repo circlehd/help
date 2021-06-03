@@ -12,7 +12,7 @@
   * [How To Search All Portal Videos?](getting-started/how-to-explore-all-portal-videos.md)
   * [How to Open My History List?](getting-started/how-to-open-my-history-list.md)
   * [How to Logout?](getting-started/how-to-logout.md)
-* [VIDEOS](videos/README.md)
+* [MANAGING VIDEO CONTENT](videos/README.md)
   * [How to upload a Video?](videos/how-to-upload-a-video.md)
   * [How to Edit/Delete an Existing Video?](videos/how-to-edit-delete-an-existing-video.md)
   * [How to Share a Video?](videos/how-to-share-a-video.md)
