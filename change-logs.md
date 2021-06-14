@@ -4,6 +4,14 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 6/14/2021
+
+* Performance Updates for Mobile Apps
+
+## 6/7/2021
+
+* No Updates
+
 ## 5/31/2021
 
 * No Updates this week, Happy Memorial Day!
