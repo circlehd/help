@@ -4,6 +4,10 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 6/21/2021
+
+* No Updates this week
+
 ## 6/14/2021
 
 * Performance Updates for Mobile App APIs
