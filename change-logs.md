@@ -4,6 +4,10 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 7/5/2021
+
+* UI Bug Fixes 
+
 ## 6/28/2021
 
 * No Updates, Happy 4th!
