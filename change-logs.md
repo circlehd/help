@@ -4,6 +4,10 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
+## 9/7/2021
+
+* No Updates, Happy Labor Day!
+
 ## 8/30/2021
 
 * Bug Fixes
