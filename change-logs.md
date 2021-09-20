@@ -4,7 +4,7 @@ description: This page will contain the history of changes as they were introduc
 
 # Change Logs
 
-## 9/13/2021
+## 9/20/2021
 
 * Podcast UI Updates and Bug Fixes
 
